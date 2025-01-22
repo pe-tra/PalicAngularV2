@@ -1,0 +1,157 @@
+<body>
+  <main>
+    <div id="kontejnerZoo">
+      <div id="zooVrt">
+        <h1 style="font-weight: lighter">ZOO VRT</h1>
+
+        <aside id="radnoVreme">
+          <p>
+            Radno vreme:
+            <br />
+            Svakog dana od 9h do 16h
+          </p>
+        </aside>
+
+        <p>
+          Zoo vrt Palić se nalazi u cetru naselja, samo 6km od Subotice. Osnovan
+          je 1950. godine. Pored životinja, bave se i botanikom, zaštitom
+          prirode i obrazovanjem. Neke od vrsta drveća koje rastu u parku su
+          stoletni hrastovi, džinovska sekvoja, libanski kedar
+          <abbr title="I tako dalje">itd</abbr>. Raspolažu sa više od 150
+          životinjskih vrsta, a godišnji broj posetilaca iznosi preko 150.000.
+          <strong> Zoo vrt je otvoren 365 dana u godini. </strong>
+        </p>
+
+        <blockquote cite="http://zoopalic.com/istorija-zoloskog-vrta-palic/">
+          <p>
+            Od osamdesetih godina prošlog veka ZOO vrt funkcioniše i kao
+            pedagoška ustanova u koju đaci organizovano dolaze u posetu. Tom
+            prilikom za osnovce se organizuju edukativne radionice i stručna
+            predavanja, dok srednjoškolci i studenti dolaze na stručnu praksu i
+            volontiranje.
+          </p>
+        </blockquote>
+      </div>
+    </div>
+
+    <a href="zooVrt#top" class="fiksni">
+      Vrati se na vrh &emsp; <i class="strelica"> </i>
+    </a>
+
+    <figure id="mapa">
+      <img src="assets/zooVrt3.webp" alt="Mapa" (click)="openLightbox(0)"/>
+      <figcaption>Mapa zoo vrta.</figcaption>
+    </figure>
+
+    <h1 style="text-align: center; padding-top: 25px;">ŽIVOTINJE</h1>
+    
+    <p class="d-inline-flex gap-1" style="margin: 10px;">
+      <button style="padding: 5px;" class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Pogledaj listu životinja
+      </button>
+    </p>
+    
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        <div class="table-responsive zivotinje">
+          <table class="table table-striped table-bordered table-hover zivotinje">
+            <tr class="table-primary" >
+              <th style="text-align: center;">Gmizavci</th>
+              <th style="text-align: center;">Ptice</th>
+              <th colspan="2" style="text-align: center;">Sisari</th>
+            </tr>
+            <tr>
+              <td>Aligatorska kornjača</td>
+              <td>Beloglavi sup</td>
+              <td>Afrički bivo</td>
+              <td>Hijena</td>
+            </tr>
+            <tr>
+              <td>Afrička oklopna kornjača</td>
+              <td>Crvenokrila ara</td>
+              <td>Bengalski tigar</td>
+              <td>Zebra</td>
+            </tr>
+            <tr>
+              <td>Patuljasti kajman</td>
+              <td>Ćubaste morke</td>
+              <td>Crveni kengur, Valabi kengur</td>
+              <td>Vuk, Šakal</td>
+            </tr>
+            <tr>
+              <td>Američki aligator</td>
+              <td>Crkavica</td>
+              <td>Alpaka, Lama</td>
+              <td>Vidra</td>
+            </tr>
+            <tr>
+              <td>Crvenouha kornjača</td>
+              <td>Crveno-modra ara</td>
+              <td>Američki bizon</td>
+              <td>Šimpanza, Patas</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Kakadui</td>
+              <td>Lemuri, Crvenotrbi lemur</td>
+              <td>Serval</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Noj</td>
+              <td>Dikobraz</td>
+              <td>Rakun, Rakunoliki pas</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Orao belorepan</td>
+              <td>Eland Antilopa, Močvarna antilopa</td>
+              <td>Podolsko goveče</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Plavo-žuta ara</td>
+              <td>Foka</td>
+              <td>Persijski leopard</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Sove</td>
+              <td>Haflinger</td>
+              <td>Pekariji</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Patagonijska Mara</td>
+              <td>Mrki medved</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Jednogrba kamila</td>
+              <td>Merkat, Marmozet</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Jelen lopatar</td>
+              <td>Magarac</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Kapibara</td>
+              <td>Lav</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <app-gallery></app-gallery>
+
+  </main>
+</body>

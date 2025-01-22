@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, Garamond, serif;
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  height: 20%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em;
+  background-color: rgba(0, 101, 192, 0.4);
+}
+
+.desavanja {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+
+.tekst {
+  margin: 5% auto;
+  width: 60%;
+  float: left;
+  text-indent: 5%;
+}
+
+p {
+  padding: 5%;
+  font-size: 120%;
+  text-align: left;
+  float: left;
+}
+
+h2 {
+  font-size: 150%;
+  font-variant: small-caps;
+}
+
+.slike {
+  text-align: center;
+  width: 40%;
+  float: right;
+}
+
+.slike img {
+  width: 40%;
+  align-items: center;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+h1 {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 200%;
+  border-bottom-color: #0065c0;
+  border-bottom-style: solid;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 130%;
+  }
+
+  h2,
+  p {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .desavanja {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .tekst {
+    width: 100%;
+  }
+
+  .slike {
+    text-align: center;
+    width: 100%;
+  }
+
+  .slike img {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 90%;
+  }
+
+  h2,
+  p {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  img + img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 70%;
+  }
+
+  h2,
+  p {
+    font-size: 50%;
+  }
+}

@@ -1,0 +1,160 @@
+.bgR {
+  background-image: linear-gradient(rgba(4, 9, 40, 0.6), rgba(4, 9, 50, 0.6)),
+    url("/assets/pozadina1.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  padding-bottom: 2em;
+}
+
+tr td {
+  justify-content: space-between;
+  text-align: center;
+  font-size: 80%;
+}
+
+tr td a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+td {
+  border: 0.02em solid transparent;
+  padding: 0;
+}
+
+.lista {
+  width: 80%;
+  margin: 2em auto;
+}
+
+.naslov {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+
+.lista .red {
+  margin-top: 1em;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.slika {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.red .kol {
+  float: left;
+  display: table;
+  width: 50%;
+  padding: 0.3em;
+  margin-top: 1.5em;
+}
+
+.kol:hover {
+  border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+h2 {
+  display: flexbox;
+  text-decoration: none;
+  text-align: center;
+  margin: 1em;
+}
+
+.crta {
+  position: relative;
+}
+
+.crta:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 0.08em;
+  bottom: 0;
+  left: 0;
+  background-color: #0065c0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: 0.3s ease-in-out;
+  margin-left: 25%;
+}
+
+.crta:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.tekst {
+  font-size: 1.5em;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.linija {
+  width: 100px;
+  height: 4px;
+  background: #7fb2df;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  tr td a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .red .kol {
+    display: block;
+    width: 100%;
+  }
+
+  .tekst {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  tr td a {
+    font-size: 0.7em;
+  }
+
+  .tekst {
+    font-size: 0.8em;
+  }
+
+  .crta {
+    font-size: 1em;
+  }
+
+  .naslov h1 {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,161 @@
+.bg {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+    url("/assets/park2.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  padding-top: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
+  color: white;
+  text-align: center;
+}
+.sONama {
+  display: table;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  border: 0;
+}
+
+td {
+  border: 0.02em solid transparent;
+}
+
+hr {
+  display: block;
+  margin-top: 3em;
+  width: 100%;
+}
+
+#kontejner {
+  margin-left: 2em;
+  margin-top: 5em;
+  margin-right: 0.5em;
+}
+
+#opis {
+  margin-bottom: 5em;
+  float: left;
+  max-width: 70em;
+}
+
+.slike {
+  text-align: center;
+
+  img {
+    width: 19em;
+    margin-bottom: 3em;
+  }
+
+  td:hover {
+    transform: scale(1.2);
+  }
+}
+
+#kontejner > p {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#opis > p {
+  font-size: 1.6em;
+}
+
+#kontakt {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1460px) {
+  .oNama {
+    clear: both;
+
+    nav {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .slike img {
+    width: 15em;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .slike img {
+    width: 11em;
+  }
+
+  tr td a {
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #kontejner > p {
+    font-size: 1.5em;
+  }
+
+  #opis > p {
+    font-size: 1.2em;
+  }
+
+  #kontakt {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .slike td + td {
+    display: none;
+  }
+
+  .slike img {
+    width: 20em;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .slike img {
+    width: 15em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  tr td a {
+    font-size: 0.7em;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  #kontejner {
+    margin: 1em 2em;
+  }
+
+  #kontejner > p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  #opis > p {
+    font-size: 0.8em;
+  }
+
+  #kontakt {
+    font-size: 0.5em;
+  }
+}
