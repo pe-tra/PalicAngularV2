@@ -1,0 +1,28 @@
+{
+    "navC": {
+        "home": "HOME",
+        "blog": "BLOG",
+        "events": "EVENTS",
+        "zoo": "ZOO",
+        "accommodation": "ACCOMMODATION",
+        "restaurants": "RESTAURANTS",
+        "allRestaurants": "VIEW ALL",
+        "pepperMill": "PIZZA PEPPER MILL",
+        "abrahamInn": "ABRAHAM INN",
+        "ribljaCarda": "RIBLJA ČARDA",
+        "corsaroUno": "CORSARO UNO",
+        "paligoPalace": "PALIGO PALACE",
+        "wineries": "WINERIES",
+        "allWineries": "VIEW ALL",
+        "zvonkoBogdan": "ZVONKO BOGDAN",
+        "petra": "PETRA",
+        "vinskiDvor": "VINSKI DVOR",
+        "gallery": "GALLERY"
+    },
+    "blogC": {
+        "title1": "Visit Palić for the first of May",
+        "visitDesc": "The well-known first of May holidays are held every year in Palić, where guests come from all over Serbia and even from abroad. Visitors can buy various catering and trade products.<br />The market offers lots of souvenirs, food, drinks and other products that can be found from terrace Muški štrand all the way to Ženski štrand. The most popular attraction is an amusement park with a varied program, which, such as many visitors said, is <q>ideal for the whole family</q>.",
+        "title2": "Walk your dog around the lake shore",
+        "walkDesc": "If you are looking for a place where you can walk your dog, Park Palić is the ideal place for that. Your dog will surely enjoy the walk, and you can relax in nature and the beautiful view."
+    }
+}

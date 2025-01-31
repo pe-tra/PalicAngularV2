@@ -1,6 +1,7 @@
 import { Component, ElementRef, ViewChild, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'app-nav',
@@ -11,7 +12,7 @@ import { filter } from 'rxjs/operators';
 export class NavComponent implements OnInit {
 
   activeMenu: string = '';
-  constructor(private router: Router) {}
+  constructor(private router: Router, private languageService: LanguageService) {}
   
   ngOnInit(): void {
     this.router.events.pipe(
@@ -19,7 +20,6 @@ export class NavComponent implements OnInit {
     ).subscribe((event: NavigationEnd) => {
       const currentRoute = event.urlAfterRedirects.split('/')[1];
       this.activeMenu = currentRoute;
-      // Store the active menu in localStorage
       localStorage.setItem('activeMenu', currentRoute);
     });
 
@@ -47,5 +47,9 @@ export class NavComponent implements OnInit {
     } else {
       this.navMenu.nativeElement.classList.remove('active');
     }
+  }
+
+  changeLanguage(lang: string) {
+    this.languageService.changeLanguage(lang);
   }
 }

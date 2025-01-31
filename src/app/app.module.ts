@@ -9,9 +9,25 @@ import { PocetnaBComponent } from "./pocetna-b/pocetna-b.component";
 import { SharedModule } from "./shared/sharedModule.module";
 import { appRoutes } from "./app.routes";
 
+import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+
+
+export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
+    return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
+}
+
 @NgModule({
     declarations:[AppComponent],
     bootstrap: [AppComponent],
-    imports: [BrowserModule, LightboxModule, CommonModule, PocetnaBComponent, SharedModule, RouterModule.forRoot(appRoutes)]
+    imports: [TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    }), BrowserModule, LightboxModule, CommonModule, PocetnaBComponent, SharedModule, RouterModule.forRoot(appRoutes)],
+    providers: [provideHttpClient()],
 })
 export class AppModule {}

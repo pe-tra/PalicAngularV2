@@ -10,6 +10,7 @@ import { filter, map, mergeMap } from 'rxjs/operators';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  title: any;
   constructor(
     private titleService: Title,
     private router: Router,

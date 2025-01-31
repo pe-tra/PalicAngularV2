@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { Lightbox } from 'ngx-lightbox';
 import { SharedModule } from '../shared/sharedModule.module';
+import { LanguageService } from '../services/language.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-blog',
-    imports: [SharedModule],
+    imports: [SharedModule, TranslateModule],
     templateUrl: './blog.component.html',
     styleUrl: './blog.component.scss'
 })
@@ -23,7 +25,7 @@ export class BlogComponent {
     }
   ];
 
-  constructor(private lightbox: Lightbox) {}
+  constructor(private lightbox: Lightbox, private languageService: LanguageService) {}
 
   openLightbox(index: number): void {
     this.lightbox.open(this.album, index);
@@ -31,5 +33,9 @@ export class BlogComponent {
 
   closeLightbox(): void {
     this.lightbox.close();
+  }
+
+  changeLanguage(lang: string) {
+    this.languageService.changeLanguage(lang);
   }
 }

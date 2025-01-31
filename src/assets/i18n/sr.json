@@ -1,0 +1,28 @@
+{
+    "nav": {
+    "home": "POČETNA",
+    "blog": "BLOG",
+    "events": "DEŠAVANJA",
+    "zoo": "ZOO VRT",
+    "accommodation": "SMEŠTAJ",
+    "restaurants": "RESTORANI",
+    "allRestaurants": "POGLEDAJ SVE",
+    "pepperMill": "PIZZA PEPPER MILL",
+    "abrahamInn": "GOSTIONA ABRAHAM",
+    "ribljaCarda": "RIBLJA ČARDA",
+    "corsaroUno": "CORSARO UNO",
+    "paligoPalace": "PALIGO PALATA",
+    "wineries": "VINARIJE",
+    "allWineries": "POGLEDAJ SVE",
+    "zvonkoBogdan": "ZVONKO BOGDAN",
+    "petra": "PETRA",
+    "vinskiDvor": "VINSKI DVOR",
+    "gallery": "GALERIJA"
+    },
+    "blogC": {
+        "title1": "Poseta Palića za Prvi maj",
+        "visitDesc": "Dobro poznati prvomajski praznici održavaju se svake godine na Paliću, gde dolaze gosti iz cele Srbije pa čak i iz inostranstva. Posetioci su u mogućnosti da kupe razne ugostiteljske i trgovačke proizvode.<br /> Vašarska ponuda suvenira, hrane, pića i drugih proizvoda može se naći od terase Muški štrand sve do Ženskog štranda. Najpopularnija atrakcija za vreme Prvog maja je luna park sa raznovrsnim programom, koji, kao što su mnogi posetioci rekli, je <q>idealan za celu porodicu</q>.",
+        "title2": "Prošetajte psa oko obale jezera",
+        "walkDesc": "Ako tražite mesto gde možete prošetati Vašeg psa, park Palić je idealno mesto za to. Vaš pas će sigurno uživati u šetnji, a Vi se možete opustiti u prirodi i prelepom pogledu."
+    }
+}

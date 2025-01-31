@@ -17,7 +17,7 @@ a.nav-link{
   padding: 5px;
 }
 .nav-link, .nav-link.active, .dropdown-menu {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 #navbarNavDropdown, .container-fluid{
@@ -29,7 +29,7 @@ a.nav-link{
   margin-right: 40px;
 }
 
-.nav-link, .nav-link.active {
+.nav-link, .nav-link.active, .langBTN {
   color: white;
   margin: 0;
   width: 100%; 
@@ -38,6 +38,12 @@ a.nav-link{
     color: wheat;
     border-radius: 5px;
   }
+}
+
+.nav-link.langBTN {
+  display: inline;
+  padding: 0.3em;
+  cursor: pointer;
 }
 
 .dropdown-menu{
@@ -151,8 +157,11 @@ ul.navigacija a:hover {
     display: flex;
     flex-wrap: wrap;
   }
-  .nav-link, .nav-link.active, .dropdown-menu {
+  .nav-link, .nav-link.active, .dropdown-menu, .langBTN {
     font-size: 0.9em;
+  }
+  .nav-item{
+    margin-right: 20px;
   }
 }
 
@@ -164,8 +173,11 @@ ul.navigacija a:hover {
   .navigacija {
     flex-wrap: wrap;
   }
-  .nav-link, .nav-link.active, .dropdown-menu {
+  .nav-link, .nav-link.active, .dropdown-menu, .langBTN {
     font-size: 0.8em;
+  }
+  .nav-item:first-child{
+    margin-left: 10px;
   }
 }
 
@@ -173,17 +185,12 @@ ul.navigacija a:hover {
   .toranj {
     display: none;
   }
-}
-
-@media only screen and (max-width: 860px) {
-  .nav-link, .nav-link.active, .dropdown-menu {
-    font-size: 0.8em;
+  .nav-item{
+    margin-left: 10px;
   }
 }
 
 @media only screen and (max-width: 700px) {
-  
-
   .navOG {
     display: none;
 
@@ -209,7 +216,7 @@ ul.navigacija a:hover {
 }
 
 @media only screen and (max-width: 480px) {
-  .nav-link, .nav-link.active, .dropdown-menu {
+  .nav-link, .nav-link.active, .dropdown-menu, .langBTN {
     font-size: 0.7em;
     padding: 0.3em 0.5em;
   }
