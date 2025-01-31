@@ -8,7 +8,7 @@ export class LanguageService {
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['sr', 'en']);
     this.translate.setDefaultLang('sr');
-    this.translate.use(localStorage.getItem('language') || 'en');
+    this.translate.use(localStorage.getItem('language') || 'sr');
   }
 
   changeLanguage(lang: string) {

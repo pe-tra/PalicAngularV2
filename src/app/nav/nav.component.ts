@@ -2,6 +2,7 @@ import { Component, ElementRef, ViewChild, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { LanguageService } from '../services/language.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-nav',
@@ -12,7 +13,7 @@ import { LanguageService } from '../services/language.service';
 export class NavComponent implements OnInit {
 
   activeMenu: string = '';
-  constructor(private router: Router, private languageService: LanguageService) {}
+  constructor(private router: Router, private languageService: LanguageService, private translate: TranslateService) {}
   
   ngOnInit(): void {
     this.router.events.pipe(
@@ -27,6 +28,10 @@ export class NavComponent implements OnInit {
     if (storedActiveMenu) {
       this.activeMenu = storedActiveMenu;
     }
+
+    this.translate.onLangChange.subscribe(() => {
+      this.translate.use(this.translate.currentLang);
+    });
   }
 
   setActiveMenu(menu: string): void {
