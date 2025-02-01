@@ -2,7 +2,7 @@
   <main>
     <div class="lista">
       <div class="naslov">
-        <h1>VINARIJE</h1>
+        <h1>{{ 'navC.wineries' | translate }}</h1>
         <div class="linija"></div>
       </div>
 
@@ -16,11 +16,9 @@
             />
           </a>
           <a href="/vinarijaZB">
-            <h2 class="crta">Vinarija Zvonko Bogdan</h2>
+            <h2 class="crta">Zvonko Bogdan</h2>
           </a>
-          <p class="tekst">
-            Godišnje proizvode preko 400.000 vina visokog kvaliteta koja redovno
-            osvajaju najviša svetska priznanja. <br />
+          <p class="tekst" [innerHTML]=" 'wineriesC.winerie1' | translate">
           </p>
         </div>
 
@@ -29,11 +27,10 @@
             <img class="slika" src="assets/vinarijaPetra1.webp" alt="Petra" />
           </a>
           <a href="/vinarijaP">
-            <h2 class="crta">Vinarija Petra</h2>
+            <h2 class="crta">Petra</h2>
           </a>
           <p class="tekst">
-            U njihovim prodavnicama možete naći Pinot Noir Barique, Reserva,
-            Cuvée, Desertni Traminac, Rosé i još mnoga druga vina.
+            {{ 'wineriesC.winerie2' | translate }}
           </p>
         </div>
 
@@ -45,8 +42,7 @@
             <h2 class="crta">Vinski Dvor</h2>
           </a>
           <p class="tekst">
-            Vinski Dvor, pored 12 vrsta vina i 8ha površine, raspolaže i sa
-            restoranom, VIP salom kao i smeštajem.
+            {{ 'wineriesC.winerie3' | translate }}
           </p>
         </div>
       </div>

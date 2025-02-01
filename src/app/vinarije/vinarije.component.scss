@@ -127,6 +127,14 @@ h2 {
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .red .kol {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.1em;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   tr td a {
     font-size: 1em;
@@ -134,11 +142,6 @@ h2 {
 }
 
 @media only screen and (max-width: 700px) {
-  .red .kol {
-    display: block;
-    width: 100%;
-  }
-
   .tekst {
     font-size: 1em;
   }
@@ -157,11 +160,7 @@ h2 {
     font-size: 0.8em;
   }
 
-  .crta {
-    font-size: 1em;
-  }
-
-  .naslov h1 {
+  .crta, .naslov h1  {
     font-size: 1em;
   }
 }

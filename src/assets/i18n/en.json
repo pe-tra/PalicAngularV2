@@ -7,16 +7,10 @@
         "accommodation": "ACCOMMODATION",
         "restaurants": "RESTAURANTS",
         "allRestaurants": "VIEW ALL",
-        "pepperMill": "PIZZA PEPPER MILL",
         "abrahamInn": "ABRAHAM INN",
-        "ribljaCarda": "RIBLJA ČARDA",
-        "corsaroUno": "CORSARO UNO",
         "paligoPalace": "PALIGO PALACE",
         "wineries": "WINERIES",
         "allWineries": "VIEW ALL",
-        "zvonkoBogdan": "ZVONKO BOGDAN",
-        "petra": "PETRA",
-        "vinskiDvor": "VINSKI DVOR",
         "gallery": "GALLERY"
     },
     "blogC": {
@@ -41,5 +35,97 @@
         "villaPalic": "<span class='eventSpan'>Villa Palić</span> is located next to Lake Palić, and therefore most of the rooms have a view of the water. The hotel has a restaurant that is open to all guests. If you want to spend the night in this villa, you will surely enjoy the spacious rooms designed for a family or a group of friends.",
         "jelenSalas": "<span class='eventSpan'>Jelen Salaš</span>, a well-known restaurant with local cuisine, is also an overnight accommodation with a total of 8 separate buildings. The rooms are air-conditioned, have a TV, a desk and a private bathroom. Jelen Salash is the perfect place for a family, they have a large area with a children's playground and a basketball court.",
         "navigator": "<span class='eventSpan'>Navigator</span> is one of the younger hotels in the area, it started operating in 2022. This hotel is located near the lake, a few minutes from the shore. All rooms are air-conditioned, have a flat-screen TV, dining room, kitchen and private bathroom."
+    },
+    "zooC": {
+        "workingHours": "Working hours:<br />Every day from 9am to 4pm",
+        "desc": "Palić Zoo is located in the center of the village, only 6 km from Subotica. It was founded in 1950. In addition to animals, they also deal with botany, nature protection and education. Some of the types of trees that grow in the park are hundred-year-old oaks, giant sequoia, cedar of Lebanon and many others. They have more than 150 animal species, and the annual number of visitors is over 150,000.<strong> The zoo is open 365 days a year.</strong>",
+        "about": "Since the eighties of the last century, the ZOO has also been functioning as a pedagogical institution where students come to visit in an organized manner. On this occasion, educational workshops and professional lectures are organized for elementary school students, while high schoolers and students come for professional practice and volunteering.",
+        "top": "Go back to the top",
+        "map": "Map of the zoo.",
+        "animals": "ANIMALS",
+        "listOfAnimals": "Show the list of animals",
+        "header1": "Reptiles",
+        "header2": "Birds",
+        "header3": "Mammals",
+        "row1": {
+            "col1": "Alligator tortoise",
+            "col2": "Griffon vulture",
+            "col3": "African buffalo",
+            "col4": "Hyena"
+        },
+        "row2": {
+            "col1": "African armored turtle",
+            "col2": "Red-winged macaw",
+            "col3": "Bengal tiger"
+        },
+        "row3": {
+            "col1": "Dwarf caiman",
+            "col2": "Tufted turkeys",
+            "col3": "Red Kangaroo, Wallaby Kangaroo",
+            "col4": "Wolf, Jackal"
+        },
+        "row4": {
+            "col1": "American Alligator",
+            "col2": "Egyptian vulture",
+            "col3": "Alpaca, Llama",
+            "col4": "Otter"
+        },
+        "row5": {
+            "col1": "Red-eared turtle",
+            "col2": "Red and blue macaw",
+            "col3": "American bison",
+            "col4": "Chimpanzee, Patas"
+        },
+        "row6": {
+            "col1": "Cockatoos",
+            "col2": "Lemurs, Red-bellied lemur"
+        },
+        "row7": {
+            "col1": "Ostrich",
+            "col2": "Porcupine",
+            "col3": "Raccoon, raccoon-like dog"
+        },
+        "row8": {
+            "col1": "White-tailed eagle",
+            "col2": "Eland Antelope, Swamp Antelope",
+            "col3": "Podolian cattle"
+        },
+        "row9": {
+            "col1": "Blue and yellow macaw",
+            "col2": "Seal",
+            "col3": "Persian leopard"
+        },
+        "row10": {
+            "col1": "Owls",
+            "col3": "Peccaries"
+        },
+        "row11": {
+            "col1": "Patagonian Mara",
+            "col2": "Brown bear"
+        },
+        "row12": {
+            "col1": "One-humped camel",
+            "col2": "Meerkat, Marmoset"
+        },
+        "row13": {
+            "col1": "Fallow deer",
+            "col2": "Donkey"
+        },
+        "row14": {
+            "col1": "Capybara",
+            "col2": "Lion"
+        }
+    },
+    "restaurantsC": {
+        "restaurant1": "Pizza Pepper Mill is a pizzeria/restaurant within Villa Elizabeth, located on the shore of the lake and near the zoo.",
+        "restaurant2": "Abraham is one of the favorite restaurants in Palić and the surrounding area, offering traditional flavors and high-quality dishes.",
+        "restaurant3": "One of the most famous specialized restaurants in Palić. It is located near the shore of the lake.",
+        "restaurant4": "The catering facility Corsaro is located in the center of Palić, where they have been successfully operating since 2014.",
+        "restaurant5": "One of the youngest restaurants in Palić, opened only last year. Within it, a children's restaurant is also open."
+    },
+    "wineriesC": {
+        "winerie1": "Annually, they produce over 400,000 high-quality wines that regularly win the world's highest awards. <br />",
+        "winerie2": "In their stores you can find Pinot Noir Barique, Reserva, Cuvée, Dessert Traminac, Rosé and many other wines.",
+        "winerie3": "Vinski Dvor, in addition to 12 types of wine and an area of 8 hectares, also has a restaurant, a VIP room and accommodation."
     }
 }
