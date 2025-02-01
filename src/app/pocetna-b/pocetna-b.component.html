@@ -1,23 +1,12 @@
 <body class="bg">
   <main>
-    <h1 style="position: static">Turistički informator Palića</h1>
+    <h1 style="position: static">{{ 'homeC.title' | translate }}</h1>
 
     <div id="kontejner">
-      <p class="sONama">O NAMA</p>
+      <p class="sONama">{{ 'homeC.aboutUs' | translate }}</p>
       <div class="oNama">
         <div id="opis">
-          <p>
-            Palić je turistički veoma poznato gradsko naselje u Vojvodini.<br />
-            Naša stranica je informativnog karaktera i služi posetiocima da
-            lakše pronađu restoran ili vinariju koju žele da posete. Palić je
-            poznat po raznim ali najviše po
-            <em> tradicionalnim restoranima</em>, među najpoznatijim su čarde
-            koje imaju izvanredan izbor hrane.<br />
-            Pored toga, imamo posebne sekcije za zoo vrt, dešavanja na Paliću
-            kao i smeštaj, što je takođe od velikog značaja turistima.<br />
-            Pošto je naš cilj da približimo iskustva i da olakšamo izbor, imamo
-            poseban segment u formi bloga koji je pun utisaka ranijih posetilaca
-            Palića.
+          <p [innerHTML]=" 'homeC.aboutDesc' | translate">
           </p>
         </div>
       </div>
@@ -36,11 +25,10 @@
   </main>
   <footer>
     <p id="kontakt">
-      <b>Kontakt:</b> &emsp;&emsp;
-      <a href="mailto:palicturizam@gmail.com"
-        >e-mail:palicturizam&#64;gmail.com</a
-      >
-      &emsp;&emsp; <a href="tel:+3814175200">telefon: +381 4175200</a>
+      <b>{{ 'homeC.contact' | translate }}</b> &emsp;&emsp;
+      <a href="mailto:palicturizam@gmail.com">
+        e-mail:palicturizam&#64;gmail.com</a>
+      &emsp;&emsp; <a href="tel:+3814175200">{{ 'homeC.telephone' | translate }} +381 4175200</a>
     </p>
     <br />
 

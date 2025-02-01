@@ -47,7 +47,7 @@ td {
 }
 
 .infoTab tr td {
-  font-size: 1.4em;
+  font-size: 1.5em;
   padding: 1em;
   text-align: left;
 }
@@ -70,7 +70,7 @@ td {
 }
 
 h1 {
-  padding-top: 2em;
+  padding-top: 1.5em;
   text-align: center;
   font-size: 3em;
   text-shadow: 0.04em 0.04em #bfd8ef;
@@ -79,12 +79,6 @@ h1 {
 .pozicijaR {
   position: relative;
   left: 30px;
-}
-
-span {
-  font-size: 1.7em;
-  font-style: oblique;
-  font-family: Trattatello, serif;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -104,6 +98,12 @@ span {
 
   .infoTab tr td {
     font-size: 1.1em;
+    width: 100%;
+    display: block;
+  }
+
+  .pozicijaR {
+    left: 0;
   }
 
   .naslov {
@@ -122,16 +122,6 @@ span {
 
   .infoTab {
     margin-top: 0;
-  }
-
-  .infoTab tr td {
-    font-size: 0.8em;
-    width: 100%;
-    display: block;
-  }
-
-  span {
-    font-size: 1.3em;
   }
 }
 

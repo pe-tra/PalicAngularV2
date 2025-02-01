@@ -21,8 +21,25 @@
     },
     "blogC": {
         "title1": "Visit Palić for the first of May",
-        "visitDesc": "The well-known first of May holidays are held every year in Palić, where guests come from all over Serbia and even from abroad. Visitors can buy various catering and trade products.<br />The market offers lots of souvenirs, food, drinks and other products that can be found from terrace Muški štrand all the way to Ženski štrand. The most popular attraction is an amusement park with a varied program, which, such as many visitors said, is <q>ideal for the whole family</q>.",
+        "visitDesc": "The well-known first of May holidays are held every year in Palić, where guests come from all over Serbia and even from abroad. Visitors can buy various catering and trade products.<br />The market offers lots of souvenirs, food, drinks and other products that can be found from terrace Muški štrand all the way to Ženski štrand. The most popular attraction is an amusement park with a varied program, which, such as many visitors said, is <q class='quote'>ideal for the whole family</q>.",
         "title2": "Walk your dog around the lake shore",
         "walkDesc": "If you are looking for a place where you can walk your dog, Park Palić is the ideal place for that. Your dog will surely enjoy the walk, and you can relax in nature and the beautiful view."
+    },
+    "eventsC": {
+        "raceDesc": "<span class='eventSpan'> The Santa Race </span> has been held for 23 years. Now, in 2022, with over 3000 participants, it is said that the most people attended. Not only citizens of Palić and surrounding towns come to the race, but there were also visitors from abroad. The weather was perfect for this short race, and visitors received participation medals, bread and butter and tea. An art contest for children was also held, where about 500 works were submitted.",
+        "marathonDesc": "<span class='eventSpan'> Wine Marathon</span> is an event that combines running, wine and gastronomy. Participants in the race come in their own costumes, for which they can receive various prizes. After the race, a wine tasting awaits the participants, in which wineries from the surrounding area also participate, and there is also the option of enjoying the tasting on a boat that sails on the lake.",
+        "seeoocDesc": "<span class='eventSpan'> SEEOOC</span> is the Open Cup of Southeast Europe for the optimist class. Palić Sailing Club hosted this competition in 2022, in which over 60 competitors from 14 clubs took part. The competition is for ages 7 to 15. The co-organizers of the regatta are the Sailing Association of Serbia and Vojvodina, and the main financiers are the Ministry of Sports and Youth, the Provincial Secretariat for Sports and Youth and the City of Subotica."
+    },
+    "homeC": {
+        "title": "Palić tourist information",
+        "aboutUs": "ABOUT US",
+        "aboutDesc": "Palić is a very famous tourist town in Vojvodina.<br />Our website is informative and serves visitors to find a restaurant or winery they want to visit more easily. Palić is known for various, but mostly for<em> traditional restaurants</em>, among the most famous are chardas that have an extraordinary selection of food.<br />In addition, we have special sections for the zoo, events in Palić as well as accommodation, which is also of great importance to tourists.<br />Since our goal is to bring experiences closer together and make the choice easier, we have a special segment in the form of a blog that is full of impressions from previous visitors of Palić.",
+        "contact": "Contact:",
+        "telephone": "telephone:"
+    },
+    "accommodationC": {
+        "villaPalic": "<span class='eventSpan'>Villa Palić</span> is located next to Lake Palić, and therefore most of the rooms have a view of the water. The hotel has a restaurant that is open to all guests. If you want to spend the night in this villa, you will surely enjoy the spacious rooms designed for a family or a group of friends.",
+        "jelenSalas": "<span class='eventSpan'>Jelen Salaš</span>, a well-known restaurant with local cuisine, is also an overnight accommodation with a total of 8 separate buildings. The rooms are air-conditioned, have a TV, a desk and a private bathroom. Jelen Salash is the perfect place for a family, they have a large area with a children's playground and a basketball court.",
+        "navigator": "<span class='eventSpan'>Navigator</span> is one of the younger hotels in the area, it started operating in 2022. This hotel is located near the lake, a few minutes from the shore. All rooms are air-conditioned, have a flat-screen TV, dining room, kitchen and private bathroom."
     }
 }
