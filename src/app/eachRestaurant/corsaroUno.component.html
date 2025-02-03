@@ -1,0 +1,63 @@
+<body
+  style="
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.7)
+      ),
+      url('assets/corsaro6.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  "
+>
+  <main>
+    <h1
+      style="
+        text-align: center;
+        margin-top: 2em;
+        color: black;
+        text-shadow: 0.04em 0.04em #ffaa6a;
+      "
+    >
+      Corsaro Uno
+    </h1>
+    <div style="overflow-x: auto">
+      <table class="restoraniTab">
+        <tr>
+          <td colspan="2" class="belaPozadina">
+            {{ 'corsaroUnoC.about' | translate }}
+            <br /><br />
+            {{ 'corsaroUnoC.pizzas' | translate}}
+            <ul class="ponudaRB">
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza1' | translate }}</li>
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza2' | translate }}</li>
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza3' | translate }}</li>
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza4' | translate }}</li>
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza5' | translate }}</li>
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza6' | translate }}</li>
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza7' | translate }}</li>
+              <li>{{ 'corsaroUnoC.pizzaNames.pizza8' | translate }}</li>
+            </ul>
+            <br /><br />
+            {{ 'corsaroUnoC.workingHours' | translate }} <br />
+            {{ 'corsaroUnoC.suTh' | translate }} <br />
+            {{ 'corsaroUnoC.frSa' | translate }}
+            <br /><br />
+            {{ 'corsaroUnoC.moreInfo' | translate }}
+            <a
+              href="tel:+38124755333"
+              target="_parent"
+              style="color: black; font-size: 1em;"
+            >
+            {{ 'homeC.telephone' | translate }} +38124755333</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><img src="assets/corsaro2.webp" alt="" (click)="openLightbox(0)"/></td>
+          <td><img src="assets/corsaro5.webp" alt="" (click)="openLightbox(1)"/></td>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>

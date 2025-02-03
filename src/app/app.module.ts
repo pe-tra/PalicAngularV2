@@ -5,14 +5,14 @@ import { CommonModule } from '@angular/common';
 import { LightboxModule } from 'ngx-lightbox';
 
 import { AppComponent } from "./app.component";
-import { PocetnaBComponent } from "./pocetna-b/pocetna-b.component";
 import { SharedModule } from "./shared/sharedModule.module";
 import { appRoutes } from "./app.routes";
 
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
-import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
-
+import { HttpClient, provideHttpClient } from '@angular/common/http';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
+import { HomeBodyComponent } from "./home-body/home-body.component";
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
@@ -27,7 +27,7 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
             useFactory: HttpLoaderFactory,
             deps: [HttpClient]
         }
-    }), BrowserModule, LightboxModule, CommonModule, PocetnaBComponent, SharedModule, RouterModule.forRoot(appRoutes)],
+    }), BrowserModule, NgxScrollTopModule, LightboxModule, CommonModule, HomeBodyComponent, SharedModule, RouterModule.forRoot(appRoutes)],
     providers: [provideHttpClient()],
 })
 export class AppModule {}

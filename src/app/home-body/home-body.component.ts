@@ -1,29 +1,27 @@
 import { Component } from '@angular/core';
-import { Lightbox } from 'ngx-lightbox';
 import { SharedModule } from '../shared/sharedModule.module';
+import { Lightbox } from 'ngx-lightbox';
 import { LanguageService } from '../services/language.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { BaseComponent } from '../shared/base.component';
 
 @Component({
-    selector: 'app-blog',
-    imports: [SharedModule, TranslateModule],
-    templateUrl: './blog.component.html',
-    styleUrl: './blog.component.scss'
+  selector: 'app-home-body',
+  imports: [SharedModule, TranslateModule],
+  templateUrl: './home-body.component.html',
+  styleUrl: './home-body.component.scss'
 })
-
-export class BlogComponent extends BaseComponent {
-    
-    album: any[] = [
+export class HomeBodyComponent extends BaseComponent{
+  album: any[] = [
     {
-      src: 'assets/prviMaj1.webp'
+      src: 'assets/jezeroZalazak1.webp'
     },
     {
-      src: 'assets/prviMaj2.webp'
+      src: 'assets/parkTrka13.webp'
     },
     {
-      src: 'assets/parkPas4.webp'
+      src: 'assets/park1.webp'
     }
   ];
 

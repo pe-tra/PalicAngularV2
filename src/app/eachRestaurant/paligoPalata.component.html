@@ -1,0 +1,75 @@
+<body
+  style="
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+      url('assets/paligo4.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  "
+>
+  <main>
+    <h1
+      style="
+        text-align: center;
+        margin-top: 2em;
+        color: white;
+        text-shadow: 0.04em 0.04em #ffaa6a;
+      "
+    >
+      {{ 'navC.paligoPalace' | translate }}
+    </h1>
+    <div style="overflow-x: auto">
+      <table class="restoraniTab">
+        <tr>
+          <td colspan="2" style="color: white">
+            {{ 'paligoPalaceC.about1' | translate }}
+            <br />
+            {{ 'paligoPalaceC.about2' | translate }}
+            <br /><br />
+            <br />
+            {{ 'paligoPalaceC.breakfastMenu.breakfast' | translate }}
+            <ul class="ponudaRes" style="color: white">
+              <li>{{ 'paligoPalaceC.breakfastMenu.item1' | translate }}</li>
+              <li>{{ 'paligoPalaceC.breakfastMenu.item2' | translate }}</li>
+              <li>{{ 'paligoPalaceC.breakfastMenu.item3' | translate }}</li>
+              <li>{{ 'paligoPalaceC.breakfastMenu.item4' | translate }}</li>
+              <li>{{ 'paligoPalaceC.breakfastMenu.item5' | translate }}</li>
+            </ul>
+            <br />
+            {{ 'paligoPalaceC.appetizerMenu.appetizers' | translate }}
+            <ul class="ponudaRes">
+              <li>{{ 'paligoPalaceC.appetizerMenu.item1' | translate }}</li>
+              <li>{{ 'paligoPalaceC.appetizerMenu.item2' | translate }}</li>
+              <li>{{ 'paligoPalaceC.appetizerMenu.item3' | translate }}</li>
+              <li>{{ 'paligoPalaceC.appetizerMenu.item4' | translate }}</li>
+              <li>{{ 'paligoPalaceC.appetizerMenu.item5' | translate }}</li>
+            </ul>
+            <br />
+            {{ 'paligoPalaceC.mainMenu.mainDishes' | translate }}
+            <ul class="ponudaRes">
+              <li>{{ 'paligoPalaceC.mainMenu.item1' | translate }}</li>
+              <li>{{ 'paligoPalaceC.mainMenu.item2' | translate }}</li>
+              <li>{{ 'paligoPalaceC.mainMenu.item3' | translate }}</li>
+              <li>{{ 'paligoPalaceC.mainMenu.item4' | translate }}</li>
+              <li>{{ 'paligoPalaceC.mainMenu.item5' | translate }}</li>
+            </ul>
+            <br /><br />
+            {{ 'corsaroUnoC.workingHours' | translate }} <br />
+            {{ 'paligoPalaceC.moTh' | translate }} <br />
+            {{ 'paligoPalaceC.frSa' | translate }} <br />
+            {{ 'paligoPalaceC.sunday' | translate }}
+            <br /><br />
+            {{ 'corsaroUnoC.moreInfo' | translate }}
+            <a href="https://paligopalata.rs/" target="_blank">
+              paligopalata.rs</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><img src="assets/paligo5.webp" alt="" class="shadow" (click)="openLightbox(0)"/></td>
+          <td><img src="assets/paligo1.webp" alt="" class="shadow" (click)="openLightbox(1)"/></td>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>

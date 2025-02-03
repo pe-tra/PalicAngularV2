@@ -13,21 +13,21 @@
           <li class="nav-item" [class.active]="activeMenu === 'blog'">
             <a class="nav-link" href="blog">{{ 'navC.blog' | translate}}</a>
           </li>
-          <li class="nav-item" [class.active]="activeMenu === 'desavanja'">
-            <a class="nav-link" href="desavanja">{{ 'navC.events' | translate}}</a>
+          <li class="nav-item" [class.active]="activeMenu === 'events'">
+            <a class="nav-link" href="events">{{ 'navC.events' | translate}}</a>
           </li>
-          <li class="nav-item" [class.active]="activeMenu === 'zooVrt'">
-            <a class="nav-link" href="zooVrt">{{'navC.zoo' | translate}}</a>
+          <li class="nav-item" [class.active]="activeMenu === 'zoo'">
+            <a class="nav-link" href="zoo">{{'navC.zoo' | translate}}</a>
           </li>
-          <li class="nav-item" [class.active]="activeMenu === 'smestaj'">
-            <a class="nav-link" href="smestaj">{{'navC.accommodation' | translate}}</a>
+          <li class="nav-item" [class.active]="activeMenu === 'accommodation'">
+            <a class="nav-link" href="accommodation">{{'navC.accommodation' | translate}}</a>
           </li>
-          <li class="nav-item dropdown" [class.active]="activeMenu === 'restorani'">
+          <li class="nav-item dropdown" [class.active]="activeMenu === 'restaurants'">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               {{'navC.restaurants' | translate}}
             </a>
             <ul class="dropdown-menu">
-              <li [class.active]="activeMenu === 'restorani'" ><a class="dropdown-item" href="restorani">{{'navC.allRestaurants' | translate}}</a></li>
+              <li [class.active]="activeMenu === 'restaurants'" ><a class="dropdown-item" href="restaurants">{{'navC.allRestaurants' | translate}}</a></li>
               <li [class.active]="activeMenu === 'pepperMill'"><a class="dropdown-item" href="pepperMill">PIZZA PEPPER MILL</a></li>
               <li [class.active]="activeMenu === 'gostionaAbraham'"><a class="dropdown-item" href="gostionaAbraham">{{'navC.abrahamInn' | translate}}</a></li>
               <li [class.active]="activeMenu === 'ribljaCarda'"><a class="dropdown-item" href="ribljaCarda">RIBLJA ČARDA</a></li>
@@ -35,12 +35,12 @@
               <li [class.active]="activeMenu === 'paligoPalata'"><a class="dropdown-item" href="paligoPalata">{{'navC.paligoPalace' | translate}}</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" [class.active]="activeMenu === 'vinarije'">
+          <li class="nav-item dropdown" [class.active]="activeMenu === 'wineries'">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               {{'navC.wineries' | translate}}
             </a>
             <ul class="dropdown-menu">
-              <li [class.active]="activeMenu === 'vinarije'"><a class="dropdown-item" href="vinarije">{{'navC.allWineries' | translate}}</a></li>
+              <li [class.active]="activeMenu === 'wineries'"><a class="dropdown-item" href="wineries">{{'navC.allWineries' | translate}}</a></li>
               <li [class.active]="activeMenu === 'vinarijaZB'"><a class="dropdown-item" href="vinarijaZB">ZVONKO BOGDAN</a></li>
               <li [class.active]="activeMenu === 'vinarijaP'"><a class="dropdown-item" href="vinarijaP">PETRA</a></li>
               <li [class.active]="activeMenu === 'vinskiDvor'"><a class="dropdown-item" href="vinskiDvor">VINSKI DVOR</a></li>

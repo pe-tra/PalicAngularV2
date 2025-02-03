@@ -1,0 +1,65 @@
+<body
+  style="
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url('assets/abraham1.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  "
+>
+  <main>
+    <h1
+      style="
+        text-align: center;
+        margin-top: 2em;
+        color: black;
+        text-shadow: 0.04em 0.04em #ffaa6a;
+      "
+    >
+      Abraham
+    </h1>
+    <div style="overflow-x: auto">
+      <table class="restoraniTab">
+        <tr>
+          <td colspan="2" class="belaPozadina">
+            {{ 'abrahamC.about1' | translate }}
+            <br />
+            {{ 'abrahamC.about2' | translate }}
+            <br /><br />
+
+            {{ 'abrahamC.specialities' | translate }}
+            <ul class="ponudaRB">
+              <li>{{ 'abrahamC.specialitiesNames.spec1' | translate }}</li>
+              <li>{{ 'abrahamC.specialitiesNames.spec2' | translate }}</li>
+              <li>{{ 'abrahamC.specialitiesNames.spec3' | translate }}</li>
+              <li>{{ 'abrahamC.specialitiesNames.spec4' | translate }}</li>
+              <li>{{ 'abrahamC.specialitiesNames.spec5' | translate }}</li>
+              <li>{{ 'abrahamC.specialitiesNames.spec6' | translate }}</li>
+              <li>{{ 'abrahamC.specialitiesNames.spec7' | translate }}</li>
+            </ul>
+            <br /><br />
+            {{ 'corsaroUnoC.workingHours' | translate }} <br />
+            {{ 'abrahamC.tuSa' | translate }} <br />
+            {{ 'abrahamC.sunday' | translate }}
+            <br /><br />
+            {{ 'abrahamC.moreInfo' | translate }}
+            <a
+              href="https://www.abraham.rs/sr"
+              target="_blank"
+              style="color: black"
+            >
+              abraham.rs</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><img src="assets/abraham5.webp" alt="" (click)="openLightbox(0)"/></td>
+          <td><img src="assets/abraham6.webp" alt="" (click)="openLightbox(1)"/></td>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>

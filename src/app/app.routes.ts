@@ -1,25 +1,25 @@
 import { Routes } from '@angular/router';
-import { PocetnaBComponent } from './pocetna-b/pocetna-b.component';
+import { HomeBodyComponent } from './home-body/home-body.component';
 import { BlogComponent } from './blog/blog.component';
-import { DesavanjaComponent } from './desavanja/desavanja.component';
-import { SmestajComponent } from './smestaj/smestaj.component';
-import { ZooVrtComponent } from './zooVrt/zooVrt.component';
-import { VinarijeComponent } from './vinarije/vinarije.component';
-import { RestoraniComponent } from './restorani/restorani.component';
-import { VinarijaZBComponent } from './pojedinacnoVinarije/vinarijaZB.component';
-import { VinarijaPComponent } from './pojedinacnoVinarije/vinarijaP.component';
-import { VinskiDvorComponent } from './pojedinacnoVinarije/vinskiDvor.component';
-import { CorsaroUnoComponent } from './pojedinacnoRestorani/corsaroUno.component';
-import { GostionaAbrahamComponent } from './pojedinacnoRestorani/gostionaAbraham.component';
-import { PaligoPalataComponent } from './pojedinacnoRestorani/paligoPalata.component';
-import { PepperMillaComponent } from './pojedinacnoRestorani/pepperMill.component';
-import { RibljaCardaComponent } from './pojedinacnoRestorani/ribljaCarda.component';
+import { EventsComponent } from './events/events.component';
+import { AccommodationComponent } from './accommodation/accommodation.component';
+import { ZooComponent } from './zoo/zoo.component';
+import { WineriesComponent } from './wineries/wineries.component';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
+import { VinarijaZBComponent } from './eachWinerie/vinarijaZB.component';
+import { VinarijaPComponent } from './eachWinerie/vinarijaP.component';
+import { VinskiDvorComponent } from './eachWinerie/vinskiDvor.component';
+import { CorsaroUnoComponent } from './eachRestaurant/corsaroUno.component';
+import { GostionaAbrahamComponent } from './eachRestaurant/gostionaAbraham.component';
+import { PaligoPalataComponent } from './eachRestaurant/paligoPalata.component';
+import { PepperMillaComponent } from './eachRestaurant/pepperMill.component';
+import { RibljaCardaComponent } from './eachRestaurant/ribljaCarda.component';
 import { ImageGalleryComponent } from './imageGallery/imageGallery.component';
 
 export const appRoutes: Routes = [
     {
         path: '',
-        component: PocetnaBComponent,
+        component: HomeBodyComponent,
         data: { title: 'Pocetna - Palic' }
     },
     {
@@ -28,28 +28,28 @@ export const appRoutes: Routes = [
         data: { title: 'Blog - Palic' }
     },
     {
-        path: 'desavanja',
-        component: DesavanjaComponent,
+        path: 'events',
+        component: EventsComponent,
         data: { title: 'Desavanja - Palic' }
     },
     {
-        path: 'smestaj',
-        component: SmestajComponent,
+        path: 'accommodation',
+        component: AccommodationComponent,
         data: { title: 'Smestaj - Palic' }
     },
     {
-        path: "zooVrt",
-        component: ZooVrtComponent,
+        path: "zoo",
+        component: ZooComponent,
         data: { title: 'Zoo Vrt - Palic' }
     },
     {
-        path: "vinarije",
-        component: VinarijeComponent,
+        path: "wineries",
+        component: WineriesComponent,
         data: { title: 'Vinarije - Palic' }
     },
     {
-        path: "restorani",
-        component: RestoraniComponent,
+        path: "restaurants",
+        component: RestaurantsComponent,
         data: { title: 'Restorani - Palic' }
     },
     {

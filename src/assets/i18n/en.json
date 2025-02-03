@@ -127,5 +127,98 @@
         "winerie1": "Annually, they produce over 400,000 high-quality wines that regularly win the world's highest awards. <br />",
         "winerie2": "In their stores you can find Pinot Noir Barique, Reserva, Cuvée, Dessert Traminac, Rosé and many other wines.",
         "winerie3": "Vinski Dvor, in addition to 12 types of wine and an area of 8 hectares, also has a restaurant, a VIP room and accommodation."
-    }
+    },
+    "corsaroUnoC": {
+        "about": "Corsaro uno has been operating since 2014 in Palić, they are known for preparing the Salvatore pizza, which is made of ketchup, cheese, ham, mushrooms, olives, garlic and hot peppers of your choice.",
+        "pizzas": "Pizzas:",
+        "pizzaNames": {
+            "pizza1": "With cheese",
+            "pizza2": "With cheese and mushrooms",
+            "pizza3": "Vegetarian",
+            "pizza4": "American",
+            "pizza5": "Gourmet",
+            "pizza6": "Home Style",
+            "pizza7": "Corsaro",
+            "pizza8": "Hawaiian"
+        },
+        "workingHours": "Working hours:",
+        "suTh": "Sunday - Thursday 12pm - 11pm",
+        "frSa": "Friday - Saturday 12pm - 12am",
+        "moreInfo": "For more information call:"
+    },
+    "abrahamC": {
+        "about1": "Abraham Inn is a restaurant of traditional cuisine, they are best known for their beef head stew, which is only available on Fridays.",
+        "about2": "In addition, they make excellent dishes of: turkey, chicken, pork, as well as several types of river fish.",
+        "specialities": "Specialties of the house:",
+        "specialitiesNames": {
+            "spec1": "Traditional veal goulash",
+            "spec2": "Filleted carp soup with savoury cheese noodles and fried bacon",
+            "spec3": "Catfish and perch from the river Tisa",
+            "spec4": "Assorted grilled meat",
+            "spec5": "Ábrahám Plate",
+            "spec6": "Somlói galuska",
+            "spec7": "Pancakes with poppy seed and orange sauce"
+        },
+        "tuSa": "Tuesday - Saturday 11am - 10pm",
+        "sunday": "Sunday 11am - 6pm",
+        "moreInfo": "For more information visit:"
+    },
+    "paligoPalaceC": {
+        "about1": "Paligo Palace has an interior space with a capacity for 150 people. They also have a large garden decorated with a fountain and lush greenery.",
+        "about2": "They also offer a private space for 40-100 people where various celebrations can be held.",
+        "breakfastMenu": {
+            "breakfast": "Breakfast",
+            "item1": "Paligo sandwich",
+            "item2": "Gourmet breakfast",
+            "item3": "Benedict",
+            "item4": "Rustic breakfast",
+            "item5": "Salty fried dough"
+        },
+        "appetizerMenu": {
+            "appetizers": "Appetizers:",
+            "item1": "Selection of cheeses",
+            "item2": "Bruschetta with prosciutto",
+            "item3": "Bruschetta with salsa",
+            "item4": "Bruschetta with tomato and pesto",
+            "item5": "Steak tartare"
+        },
+        "mainMenu": {
+            "mainDishes": "Main dishes:",
+            "item1": "Lamb meatballs",
+            "item2": "Karađorđe's steak",
+            "item3": "Rolled veal",
+            "item4": "Chicken sticks",
+            "item5": "Baked chicken breast"
+        },
+        "moTh": "Mon - Thu: 8am - 10pm",
+        "frSa": "Fri - Sat: 9am - 11pm",
+        "sunday": "Sun: 9am - 10pm"
+    },
+    "pepperMillC": {
+        "about1": "The Pepper Mill pizzeria, which is part of Villa Elizabeta in Palić, is located right on the shore of the lake. You can spend the night in Villa Elizabeth in beautiful rooms or apartments, they also have a hydromassage pool as well as a sunbathing area and a playground for children. In front of the restaurant there is a large yard decorated with various plants and trees, and if you sit on their terrace you will have a beautiful view of Lake Palić.",
+        "menu": "From the menu we highlight:",
+        "dishes": {
+            "item1": "Gyros in a tortilla",
+            "item2": "Mixed meat"
+        },
+        "about2": "The pizzeria also offers home delivery.",
+        "address": "Address:"
+    },
+    "ribljaCardaC": {
+        "about": "Riblja čarda, built in the eighties of the 19th century, is a specialized fish restaurant known for its filleted fish soup and fish crackers.",
+        "menu": {
+            "spec": "Specialties of the house:",
+            "item1": "Fish Soup",
+            "item2": "Carp",
+            "item3": "Catfish",
+            "item4": "Grilled perch",
+            "item5": "Salmon fillet",
+            "item6": "Veal kebabs on cream",
+            "item7": "Mixed baked fish"
+        },
+        "moSu": "Monday - Sunday 10am - 10pm"
+    },
+    "wineriePetraC": "Petra the family vineyard is located near the lake, and covers 10 hectares, of which 3.5 hectares are under vine.<br /> Pinot Noir, Pinot Grigio, Merlot and Cabernet Franc are planted on this land. In their stores you can find Pinot Noir Barique, Reserva, Cuvée, Dessert Traminac, Rosé and many other wines.<br /> The vineyard has a layout that allows each bunch to have the same exposure to sun, rain and wind. After the conversion period, in 2021, the barba received the Serbian and European certificate of organic wine.",
+    "winerieZvonkoBogdanC": "The winery has tasting rooms, a large restaurant and vineyards. In this region, vines have been grown for over 2000 years. Wines are sold internationally, since the 19th century they started selling in regions all over Europe.<br /> Annually they produce over 400,000 high quality wines that regularly win the highest world awards.<br /> The vineyard covers 62 hectares, the soil is a mixture limestone, clay and silicate stone, and Merlot, White Sauvignon, Pinot Blanc, Chardonnay and several other grapes are grown on it.<br /> You can visit the winery every day from 10 am to 4 pm.",
+    "winerieVinskiDvorC": "Vinski Dvor, in addition to 12 types of wine and an area of ​​8ha, also has a restaurant, a VIP room and accommodation.<br /> The winery named Fodor-Hupert was founded in 1956. Wine is produced in the traditional way with the help of modern machines. The wines have a geographically protected origin and have won significant awards. They grow 10 varieties of grapes in the vineyard, and the vines are grown with a curtain system that produces grapes in small quantities but with high quality.<br /> You can visit the wine cellar if you are interested in tasting 9 types of wine with an additional selection of cheese and olives."
 }

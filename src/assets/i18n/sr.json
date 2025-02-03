@@ -21,7 +21,7 @@
     },
     "eventsC": {
         "raceDesc": "<span class='eventSpan'> Trka dedamrazeva </span> održava se već 23 godine. Sada 2022. godine, sa preko 3000 učesnika, govori se da je prisustvovalo najviše ljudi. Na trku dolaze ne samo građani Palića i okolnih gradova, već je bilo posetilaca i iz inostranstva. Vreme je bilo savršeno za ovu kratku trku, a posetioci su dobili učesničke medalje, hleb sa mašću i čaj. Održan je i likovni konkurs za decu na kojem je predato oko 500 radova.",
-        "marathonDesc": "<span class='eventSpan'> Vinski maraton</span> je manifestacija koja objedinjuje trčanje, vino i gastronomiju. Učesnici u trci dolaze u sopstvenim kostimima za koje nakon trke mogu dobiti razne nagrade. Učesnike nakon trke čeka degustacija vina, u čemu učestvuju i vinarije iz okoline, a postoji i opcija uživanja u degustaciji na brodu koji plovi jezerom.",
+        "marathonDesc": "<span class='eventSpan'> Vinski maraton</span> je manifestacija koja objedinjuje trčanje, vino i gastronomiju. Učesnici u trci dolaze u sopstvenim kostimima za koje nakon trke mogu dobiti razne nagrade. Učesnike nakon trke čeka degustacija vina, u čemu učestvuju i wineries iz okoline, a postoji i opcija uživanja u degustaciji na brodu koji plovi jezerom.",
         "seeoocDesc": "<span class='eventSpan'> SEEOOC</span> je Otvoreni kup Jugoistočne Evrope za klasu optimist. Jedriličarski klub Palić je 2022. godine bio domaćin ovog takmičenja u kom je učestvovalo preko 60 takmičara iz 14 klubova. Takmičenje se odnosi na uzrast od 7 do 15 godina. Suorganizatori regate su Jedriličarski Savez Srbije i Vojvodine, a glavni finansijeri su Ministarstvo sporta i omladine, Pokrajinski  sekretarijat za sport i omladinu i Grad Subotica."
     },
     "homeC": {
@@ -126,5 +126,98 @@
         "winerie1": "Godišnje proizvode preko 400.000 vina visokog kvaliteta koja redovno osvajaju najviša svetska priznanja. <br />",
         "winerie2": "U njihovim prodavnicama možete naći Pinot Noir Barique, Reserva, Cuvée, Desertni Traminac, Rosé i još mnoga druga vina.",
         "winerie3": "Vinski Dvor, pored 12 vrsta vina i 8ha površine, raspolaže i sa restoranom, VIP salom kao i smeštajem."
-    }
+    },
+    "corsaroUnoC": {
+        "about": "Corsaro uno posluje od 2014. godine na Paliću, poznati su po pripremi pizze Salvatore koja je sačinjena od kečapa, sira, šunke, gljiva, maslina, belog luka i ljute paprike po izboru.",
+        "pizzas": "Pizze:",
+        "pizzaNames": {
+            "pizza1": "Sa sirom",
+            "pizza2": "Sa sirom i gljivama",
+            "pizza3": "Vegetariana",
+            "pizza4": "Americana",
+            "pizza5": "Gurmanska",
+            "pizza6": "Domaća",
+            "pizza7": "Corsaro",
+            "pizza8": "Hawaii"
+        },
+        "workingHours": "Radno vreme:",
+        "suTh": "Nedelja - Četvrtak 12 - 23h",
+        "frSa": "Petak - Subota 12 - 24h",
+        "moreInfo": "Za više informacija pozovite:"
+    },
+    "abrahamC": {
+        "about1": "Gostiona Abraham je restoran tradicionalne kuhinje, najpoznatiji su po gulašu od juneće glave koji je dostupan samo petkom.",
+        "about2": "Osim toga, mogli bi istaći izvrsna jela od: ćuretine, piletine, svinjskog mesa, kao i od više vrsta rečnih riba.",
+        "specialities": "Specijaliteti kuće:",
+        "specialitiesNames": {
+            "spec1": "Tradicionalni juneći perkelt",
+            "spec2": "Riblji paprikaš od filiranog šarana s turoš čusom",
+            "spec3": "Tiski som i smuđ",
+            "spec4": "Mešano meso",
+            "spec5": "Abraham plato",
+            "spec6": "Šomloi galuška",
+            "spec7": "Palačinke s makom i prelivom od narandže"
+        },
+        "tuSa": "Utorak - Subota 11 - 22h",
+        "sunday": "Nedelja 11 - 18h",
+        "moreInfo": "Posetite njihovu stranicu za više informacija:"
+    },
+    "paligoPalaceC": {
+        "about1": "Paligo Palata raspolaže unutrašnjim prostorom sa kapacitetom za 150 ljudi. Imaju i veliku baštu uređenu fontanom i bujnim zelenilom.",
+        "about2": "U ponudi je i privatan prostor za 40-100 ljudi gde se mogu držati razne proslave.",
+        "breakfastMenu": {
+            "breakfast": "Doručak:",
+            "item1": "Paligo sendvič",
+            "item2": "Gurmanski doručak",
+            "item3": "Benedikt",
+            "item4": "Rustik doručak",
+            "item5": "Slane mekike"
+        },
+        "appetizerMenu": {
+            "appetizers": "Predjela:",
+            "item1": "Selekcija sireva",
+            "item2": "Bruskete sa pršutom",
+            "item3": "Bruskete sa salsom",
+            "item4": "Bruskete sa paradajzom i pestom",
+            "item5": "Tatar biftek"
+        },
+        "mainMenu": {
+            "mainDishes": "Glavna jela:",
+            "item1": "Juneće ćuftice",
+            "item2": "Karađorđeva šnicla",
+            "item3": "Rolovana teletina",
+            "item4": "Pileći štapići",
+            "item5": "Zapečene pileće grudi"
+        },
+        "moTh": "Pon - Čet: 08:00 - 22:00",
+        "frSa": "Pet - Sub: 09:00 - 23:00",
+        "sunday": "Ned: 09:00 - 22:00"
+    },
+    "pepperMillC": {
+        "about1": "Picerija Pepper Mill, koja je deo Villa Elizabete na Paliću, nalazi se na samoj obali jezera. U Vili Elizabet možete prenoćiti u prelepim sobama ili apartmanima, takođe poseduju i hidromasažni bazen kao i mesto za sunčanje i igralište za decu. Pred restoranom nalazi se veliko dvorište dekorisano raznim biljkama i drvećem, i ako sedite na njihovoj terasi imaćete prelep pogled na Palićko jezero.",
+        "menu": "Iz ponude izdvajamo:",
+        "dishes": {
+            "item1": "Giros u tortilji",
+            "item2": "Mešano meso"
+        },
+        "about2": "Pizzeria nudi i dostavu na kućnu adresu.",
+        "address": "Adresa:"
+    },
+    "ribljaCardaC": {
+        "about": "Riblja čarda, sagrađena osamdesetih godina 19. veka, je specijalizovani riblji restoran poznat po filiranoj ribljoj čorbi i ribljim čvarcima.",
+        "menu": {
+            "spec": "Specijaliteti kuće:",
+            "item1": "Riblja čorba",
+            "item2": "Šaran",
+            "item3": "Som",
+            "item4": "Smuđ na žaru",
+            "item5": "Filet lososa",
+            "item6": "Teleći ćevapi na kajmaku",
+            "item7": "Mešana pečena riba"
+        },
+        "moSu": "Ponedeljak - Nedelja 10 - 22h"
+    },
+    "wineriePetraC": "Porodični vinograd Petra nalazi se u blizini jezera, i prostire se na 10 hektara od kojih je 3,5 hektara pod vinovom lozom.<br /> Na ovom zemljištu zasađeni su Pinot Noir, Pinot Grigio, Merlot i Cabernet Franc. U njihovim prodavnicama možete naći Pinot Noir Barique, Reserva, Cuvée, Desertni Traminac, Rosé i još mnoga druga vina.<br /> Vinograd ima raspored koji omogućava da svaki grozd ima isto izlaganje suncu, kiši i vetru. Nakon perioda konverzije barba 2021. godine dobila je srpski i evropski sertifikat organskog vina.",
+    "winerieZvonkoBogdanC": "Vinarija poseduje sale za degustaciju, veliki restoran kao i vinograde. Na ovom predelu vinova loza se uzgaja preko 2000 godina. Vina se prodaju internacionalno, od 19. veka započeli su sa prodajom na predelima čitave Evrope.<br /> Godišnje proizvode preko 400.000 vina visokog kvaliteta koja redovno osvajaju najviša svetska priznanja.<br /> Vinograd se prostire na 62 hektara, tlo je mešavina krečnjaka, gline i silikatnog kamena, a na njemu uzgaja se Merlo, Beli Sovinjon, Pino Blan, Šardone i još nekoliko raznih grožđa.<br /> Vinariju možete posetiti svakog dana od 10 - 16h.",
+    "winerieVinskiDvorC": "Vinski Dvor, pored 12 vrsta vina i 8ha površine, raspolaže i sa restoranom, VIP salom kao i smeštajem.<br /> Vinarija pod nazivom Fodor-Hupert osnovana je još 1956. godine. Vino se proizvodi na tradicionalan način uz pomoć modernih mašina. Vina imaju geografski zaštićeno poreklo i osvojili su značajne nagrade. U vinogradu gaje 10 sorti grožđa, a vinovu lozu uzgajaju sistemom zavesa koja rađa grožđe u maloj količini ali sa visokim kvalitetom.<br /> Vinski podrum možete posetiti ako ste zainteresovani u degustaciju 9 vrsta vina uz dodatan izbor sira i maslina."
 }
