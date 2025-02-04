@@ -1,29 +1,29 @@
 <body>
-  <div class="naslov">
+  <div class="title">
     <h1>BLOG</h1>
-    <div class="linija"></div>
+    <div class="line"></div>
   </div>
 
   <div class="events">
-    <div class="tekst">
+    <div class="text">
       <h2>{{'blogC.title1' | translate}}</h2>
       <p [innerHTML]=" 'blogC.visitDesc' | translate ">
       </p>
     </div>
-    <div class="slike">
+    <div class="pictures">
       <img src="assets/prviMaj1.webp" alt="" (click)="openLightbox(0)"  />
       <img src="assets/prviMaj2.webp" alt="" (click)="openLightbox(1)"  />
     </div>
   </div>
 
   <div class="events">
-    <div class="tekst">
+    <div class="text">
       <h2>{{'blogC.title2' | translate}}</h2>
       <p>
         {{'blogC.walkDesc' | translate}}
       </p>
     </div>
-    <div class="slike">
+    <div class="pictures">
       <img src="assets/parkPas4.webp" alt="" (click)="openLightbox(2)" />
     </div>
   </div>

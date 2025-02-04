@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
   "
 >
   <main>
@@ -22,14 +23,14 @@
       Riblja Čarda
     </h1>
     <div style="overflow-x: auto">
-      <table class="restoraniTab">
+      <table class="restaurantsTable">
         <tr>
-          <td colspan="2" class="belaPozadina">
+          <td colspan="2" class="whiteBG">
             {{ 'ribljaCardaC.about' | translate}}
             <br /><br />
 
             {{ 'ribljaCardaC.menu.spec' | translate}}
-            <ul class="ponudaRB">
+            <ul class="menuNoNumber">
               <li>{{ 'ribljaCardaC.menu.item1' | translate}}</li>
               <li>{{ 'ribljaCardaC.menu.item2' | translate}}</li>
               <li>{{ 'ribljaCardaC.menu.item3' | translate}}</li>
@@ -62,7 +63,7 @@
     </div>
 
     <div style="clear: both; margin-top: 2em">
-      <table class="slikeRes">
+      <table class="restaurantImgs">
         <tr>
           <td><img src="assets/rCarda1.webp" alt="" (click)="openLightbox(2)"/></td>
           <td><img src="assets/rCarda4.webp" alt="" (click)="openLightbox(3)"/></td>

@@ -29,7 +29,7 @@ td {
   padding: 0;
 }
 
-#kontejnerZoo {
+#containerZoo {
   padding: 5px;
   margin-top: 10px;
 }
@@ -38,7 +38,7 @@ td {
   text-align: center;
 }
 
-#mapa {
+#map {
   margin: 30px auto;
   text-align: center;
   img {
@@ -47,7 +47,7 @@ td {
 }
 
 
-#radnoVreme {
+#workingHours {
   float: right;
   border: 2px solid #7fb2df;
   border-radius: 4px;
@@ -81,31 +81,13 @@ p {
   font-size: 20px;
 }
 
-.fiksni {
-  border-radius: 3px;
-  background-color: white;
-  padding: 5px;
-  color: #0065c0;
-  position: fixed;
-  margin: 10px;
-}
-
-.strelica {
-  border: solid black;
-  border-width: 0 5px 5px 0;
-  display: inline-block;
-  padding: 5px;
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
-table.zivotinje {
+table.animals {
   border-collapse: collapse;
   padding: 0;
   margin: 20px auto;
 }
 
-.zivotinje {
+.animals {
   caption {
   line-height: 50px;
   text-transform: uppercase;
@@ -127,22 +109,13 @@ tr, td {
   padding: 10px 20px;
 }
 
-.galerijaZoo {
-  img {
-  width: 1500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-}
-
 @media only screen and (max-width: 1500px) {
   h1,
   p {
     margin-top: 20px;
   }
 
-  #kontejnerZoo {
+  #containerZoo {
     max-width: 900px;
     overflow: hidden;
     margin: 10px auto;
@@ -156,12 +129,7 @@ tr, td {
     font-size: 18px;
   }
 
-  .galerijaZoo {
-    img {
-    max-width: 800px;
-  }
-  }
-  #radnoVreme {
+  #workingHours {
     p {
     font-size: 15px;
   }
@@ -177,15 +145,11 @@ tr, td {
     font-size: 15px;
   }
 
-  #kontejnerZoo {
+  #containerZoo {
     width: 720px;
   }
 
-  .galerijaZoo img {
-    width: 740px;
-  }
-
-  #zivotinje {
+  #animals {
     margin: 10px auto;
     caption {
       font-size: 20px;
@@ -207,11 +171,7 @@ tr, td {
     font-size: 70%;
   }
 
-  .galerijaZoo img {
-    width: 640px;
-  }
-
-  #kontejnerZoo {
+  #containerZoo {
     width: 650px;
   }
 
@@ -238,7 +198,7 @@ tr, td {
     font-size: 15px;
   }
 
-  .zivotinje tr td {
+  .animals tr td {
     font-size: 15px;
   }
 
@@ -246,7 +206,7 @@ tr, td {
     width: 450px;
   }
 
-  #kontejnerZoo {
+  #containerZoo {
     width: 550px;
   }
 
@@ -254,11 +214,7 @@ tr, td {
     width: 520px;
   }
 
-  .galerijaZoo img {
-    width: 550px;
-  }
-
-  #radnoVreme p {
+  #workingHours p {
     font-size: 10px;
   }
 }
@@ -268,11 +224,7 @@ tr, td {
     font-size: 50%;
   }
 
-  .galerijaZoo img {
-    width: 450px;
-  }
-
-  .zivotinje {
+  .animals {
     caption {
     font-size: 17px;
   }
@@ -285,7 +237,7 @@ tr, td {
   }
   }
 }
-  #kontejnerZoo {
+  #containerZoo {
     width: 450px;
   }
 
@@ -293,11 +245,11 @@ tr, td {
     width: 420px;
   }
 
-  #mapa img {
+  #map img {
     max-width: 300px;
   }
 
-  #radnoVreme {
+  #workingHours {
     display: none;
   }
 }
@@ -320,11 +272,11 @@ tr, td {
     font-size: 10px;
   }
 
-  .fiksni {
+  .fixed {
     display: none;
   }
 
-  #kontejnerZoo {
+  #containerZoo {
     width: 300px;
     margin: 0 auto;
   }
@@ -334,26 +286,22 @@ tr, td {
     width: 280px;
   }
 
-  .galerijaZoo img {
-    width: 300px;
-  }
-
-  .zivotinje tr th {
+  .animals tr th {
     font-size: 12px;
   }
 
-  .zivotinje tr td {
+  .animals tr td {
     font-size: 8px;
   }
 
-  .zivotinje {
+  .animals {
     margin: 0;
   }
 
-  #radnoVreme {
+  #workingHours {
     margin-top: 0;
   }
-  ul.navigacija li {
+  ul.navigation li {
     font-size: 0.5em;
   }
 }
@@ -363,7 +311,7 @@ tr, td {
     font-size: 8px;
   }
 
-  #kontejnerZoo {
+  #containerZoo {
     width: 250px;
     margin: 0 auto;
   }
@@ -373,11 +321,7 @@ tr, td {
     width: 230px;
   }
 
-  .galerijaZoo img {
-    width: 250px;
-  }
-
-  #mapa img {
+  #map img {
     width: 200px;
   }
 }

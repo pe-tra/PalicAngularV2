@@ -79,7 +79,7 @@ header {
   justify-content: space-between;
 }
 
-.toranj {
+.tower {
   width: 50px;
   margin-right: 1em;
 }
@@ -91,11 +91,11 @@ nav {
   justify-content: space-between;
 }
 
-.navigacija {
+.navigation {
   width: 100%;
 }
 
-ul.navigacija {
+ul.navigation {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,12 +103,12 @@ ul.navigacija {
   width: 100%;
 }
 
-ul.navigacija li {
+ul.navigation li {
   position: relative;
   margin: 0 1em;
 }
 
-ul.navigacija a {
+ul.navigation a {
   text-decoration: none;
   color: white;
   font-size: 1.3em;
@@ -117,17 +117,17 @@ ul.navigacija a {
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-ul.navigacija a:hover {
+ul.navigation a:hover {
   background-color: #7fb2df;
   border-radius: 5px;
   transform: scale(1.1);
 }
 
-.listaNav {
+.listNav {
   text-align: center;
 }
 
-.listaNav.active a {
+.listNav.active a {
   background-color: #7fb2df;
 }
 
@@ -140,7 +140,7 @@ ul.navigacija a:hover {
   z-index: 2;
 }
 
-.burger .linija {
+.burger .line {
   width: 25px;
   height: 3px;
   background-color: #fff5f5;
@@ -153,7 +153,7 @@ ul.navigacija a:hover {
 }
 
 @media only screen and (max-width: 1300px) {
-  .listaNav {
+  .listNav {
     display: flex;
     flex-wrap: wrap;
   }
@@ -166,11 +166,11 @@ ul.navigacija a:hover {
 }
 
 @media only screen and (max-width: 1130px) {
-  .listaNav {
+  .listNav {
     display: flex;
     flex-wrap: wrap;
   }
-  .navigacija {
+  .navigation {
     flex-wrap: wrap;
   }
   .nav-link, .nav-link.active, .dropdown-menu, .langBTN {
@@ -182,7 +182,7 @@ ul.navigacija a:hover {
 }
 
 @media only screen and (max-width: 1000px) {
-  .toranj {
+  .tower {
     display: none;
   }
   .nav-item{
@@ -205,12 +205,12 @@ ul.navigacija a:hover {
     transition: transform 0.3s ease-in-out;
   }
 
-  ul.navigacija {
+  ul.navigation {
     margin-left: 4em;
     flex-direction: column;
   }
 
-  ul.navigacija li {
+  ul.navigation li {
     margin: 0.4em 0;
   }
 }

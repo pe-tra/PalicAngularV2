@@ -1,6 +1,6 @@
 <body>
   <main>
-    <div class="naslov">
+    <div class="title">
       <h1>{{ 'navC.accommodation' | translate}}</h1>
     </div>
     <div style="overflow-x: auto">
@@ -8,7 +8,7 @@
         <tr>
           <td [innerHTML]=" 'accommodationC.villaPalic' | translate ">
           </td>
-          <td><img src="assets/vilaPalic.webp" alt="" class="pozicijaR" (click)="openLightbox(0)"/></td>
+          <td><img src="assets/vilaPalic.webp" alt="" class="relativePosition" (click)="openLightbox(0)"/></td>
         </tr>
         <tr>
           <td [innerHTML]=" 'accommodationC.jelenSalas' | translate ">
@@ -18,7 +18,7 @@
               src="assets/jelenSalas6.webp"
               alt=""
               style="width: 80%"
-              class="pozicijaR"
+              class="relativePosition"
               (click)="openLightbox(1)"
             />
           </td>
@@ -31,7 +31,7 @@
               src="assets/navigator1.webp"
               alt=""
               style="width: 70%"
-              class="pozicijaR"
+              class="relativePosition"
               (click)="openLightbox(2)"
             />
           </td>

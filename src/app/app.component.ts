@@ -32,6 +32,7 @@ export class AppComponent {
         if (data['title']) {
           this.titleService.setTitle(data['title']);
         }
+        window.scrollTo(0, 0);
       });
   }
 }

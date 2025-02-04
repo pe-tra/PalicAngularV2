@@ -14,6 +14,7 @@ body {
   align-items: center;
   padding-bottom: 10%;
   background-color: rgba(0, 101, 192, 0.4);
+  min-height: 100vh;
 }
 
 th + th {
@@ -76,7 +77,7 @@ h1 {
   text-shadow: 0.04em 0.04em #bfd8ef;
 }
 
-.pozicijaR {
+.relativePosition {
   position: relative;
   left: 30px;
 }
@@ -88,7 +89,7 @@ h1 {
 }
 
 @media only screen and (max-width: 900px) {
-  .slike img {
+  .pictures img {
     width: 90%;
   }
 
@@ -102,11 +103,11 @@ h1 {
     display: block;
   }
 
-  .pozicijaR {
+  .relativePosition {
     left: 0;
   }
 
-  .naslov {
+  .title {
     font-size: 0.8em;
   }
 }
@@ -116,7 +117,7 @@ h1 {
     font-size: 1em;
   }
 
-  .naslov {
+  .title {
     font-size: 0.5em;
   }
 
@@ -126,7 +127,7 @@ h1 {
 }
 
 @media only screen and (max-width: 480px) {
-  .naslov {
+  .title {
     font-size: 0.4em;
   }
 

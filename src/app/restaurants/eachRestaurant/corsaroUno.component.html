@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
   "
 >
   <main>
@@ -22,13 +23,13 @@
       Corsaro Uno
     </h1>
     <div style="overflow-x: auto">
-      <table class="restoraniTab">
+      <table class="restaurantsTable">
         <tr>
-          <td colspan="2" class="belaPozadina">
+          <td colspan="2" class="whiteBG">
             {{ 'corsaroUnoC.about' | translate }}
             <br /><br />
             {{ 'corsaroUnoC.pizzas' | translate}}
-            <ul class="ponudaRB">
+            <ul class="menuNoNumber">
               <li>{{ 'corsaroUnoC.pizzaNames.pizza1' | translate }}</li>
               <li>{{ 'corsaroUnoC.pizzaNames.pizza2' | translate }}</li>
               <li>{{ 'corsaroUnoC.pizzaNames.pizza3' | translate }}</li>

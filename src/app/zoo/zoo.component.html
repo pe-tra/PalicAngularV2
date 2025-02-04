@@ -1,10 +1,10 @@
 <body>
   <main>
-    <div id="kontejnerZoo">
+    <div id="containerZoo">
       <div id="zoo">
         <h1 style="font-weight: lighter">{{ 'navC.zoo' | translate }}</h1>
 
-        <aside id="radnoVreme">
+        <aside id="workingHours">
           <p [innerHTML]=" 'zooC.workingHours' | translate ">
           </p>
         </aside>
@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <figure id="mapa">
+    <figure id="map">
       <img src="assets/zooVrt3.webp" alt="Mapa" (click)="openLightbox(0)"/>
       <figcaption>{{ 'zooC.map' | translate }}</figcaption>
     </figure>
@@ -35,8 +35,8 @@
     
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
-        <div class="table-responsive zivotinje">
-          <table class="table table-striped table-bordered table-hover zivotinje">
+        <div class="table-responsive animals">
+          <table class="table table-striped table-bordered table-hover animals">
             <tr class="table-primary" >
               <th style="text-align: center;">{{ 'zooC.header1' | translate }}</th>
               <th style="text-align: center;">{{ 'zooC.header2' | translate }}</th>

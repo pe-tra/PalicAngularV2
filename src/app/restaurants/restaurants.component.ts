@@ -4,10 +4,11 @@ import { TranslateModule } from '@ngx-translate/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { SharedModule } from '../shared/sharedModule.module';
 import { BaseComponent } from '../shared/base.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
     selector: 'app-restaurants',
-    imports: [SharedModule, TranslateModule],
+    imports: [SharedModule, TranslateModule, RouterModule],
     templateUrl: './restaurants.component.html',
     styleUrl: './restaurants.component.scss'
 })

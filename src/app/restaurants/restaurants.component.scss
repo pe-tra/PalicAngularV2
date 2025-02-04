@@ -6,6 +6,7 @@
   background-size: cover;
   height: 100%;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 a{
@@ -33,12 +34,12 @@ td {
   padding: 0;
 }
 
-.lista {
+.list {
   width: 80%;
   margin: 2em auto;
 }
 
-.naslov {
+.title {
   font-size: 1.5em;
   text-align: center;
   margin-top: 1.5em;
@@ -50,20 +51,20 @@ p {
   color: white;
 }
 
-.lista .red {
+.list .row {
   margin-top: 1em;
   width: 100%;
   justify-content: space-between;
 }
 
-.slika {
+.image {
   width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.red .kol {
+.row .columnTable {
   float: left;
   display: table;
   width: 50%;
@@ -71,7 +72,7 @@ p {
   margin-top: 1.5em;
 }
 
-.kol:hover {
+.columnTable:hover {
   border-radius: 5%;
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -83,11 +84,11 @@ h2 {
   margin: 1em;
 }
 
-.crta {
+.underline {
   position: relative;
 }
 
-.crta:before {
+.underline:before {
   content: "";
   position: absolute;
   width: 50%;
@@ -101,18 +102,18 @@ h2 {
   margin-left: 25%;
 }
 
-.crta:hover:before {
+.underline:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
 
-.tekst {
+.text {
   font-size: 1.5em;
   word-wrap: break-word;
   text-align: center;
 }
 
-.linija {
+.line {
   width: 100px;
   height: 4px;
   background: #7fb2df;
@@ -127,12 +128,12 @@ h2 {
 }
 
 @media only screen and (max-width: 700px) {
-  .red .kol {
+  .row .columnTable {
     display: block;
     width: 100%;
   }
 
-  .tekst {
+  .text {
     font-size: 1em;
   }
 
@@ -146,15 +147,15 @@ h2 {
     font-size: 0.7em;
   }
 
-  .tekst {
+  .text {
     font-size: 0.8em;
   }
 
-  .crta {
+  .underline {
     font-size: 1em;
   }
 
-  .naslov h1 {
+  .title h1 {
     font-size: 1em;
   }
 }

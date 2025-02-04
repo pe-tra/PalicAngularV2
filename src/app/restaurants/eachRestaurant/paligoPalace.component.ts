@@ -1,28 +1,28 @@
 import { Component } from '@angular/core';
 import { Lightbox } from 'ngx-lightbox';
-import { SharedModule } from '../shared/sharedModule.module';
-import { LanguageService } from '../services/language.service';
+import { LanguageService } from '../../services/language.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { BaseComponent } from '../shared/base.component';
+import { SharedModule } from '../../shared/sharedModule.module';
+import { BaseComponent } from '../../shared/base.component';
 
 @Component({
-    selector: 'app-gostionaAbraham',
+    selector: 'app-paligoPalata',
     imports: [SharedModule, TranslateModule],
-    templateUrl: './gostionaAbraham.component.html',
+    templateUrl: './paligoPalace.component.html',
     styleUrl: './eachRestaurant.component.scss'
 })
 
-export class GostionaAbrahamComponent extends BaseComponent {
+export class PaligoPalaceComponent extends BaseComponent {
     album: any[] = [
         {
-          src: 'assets/abraham5.webp'
+          src: 'assets/paligo5.webp'
         },
         {
-          src: 'assets/abraham6.webp'
+          src: 'assets/paligo1.webp'
         }
       ];
-
+    
       constructor(private lightbox: Lightbox, languageService: LanguageService, sanitizer: DomSanitizer) {
         super(languageService, sanitizer);
       }
@@ -34,5 +34,4 @@ export class GostionaAbrahamComponent extends BaseComponent {
       closeLightbox(): void {
         this.lightbox.close();
       }
-
 }

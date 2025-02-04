@@ -11,7 +11,7 @@ body {
   padding: 1.4em;
 }
 
-.tekst {
+.text {
   text-align: center;
   margin: 10vh auto;
   left: 20vw;
@@ -34,7 +34,7 @@ p {
   margin-top: 2em;
 }
 
-.linija {
+.line {
   width: 100px;
   height: 4px;
   background: #7fb2df;
@@ -43,7 +43,7 @@ p {
 }
 
 @media only screen and (max-width: 700px) {
-  .tekst {
+  .text {
     max-width: 70%;
   }
 

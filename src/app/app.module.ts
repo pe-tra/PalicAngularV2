@@ -3,7 +3,7 @@ import { BrowserModule} from "@angular/platform-browser";
 import { RouterModule} from "@angular/router";
 import { CommonModule } from '@angular/common';
 import { LightboxModule } from 'ngx-lightbox';
-
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { AppComponent } from "./app.component";
 import { SharedModule } from "./shared/sharedModule.module";
 import { appRoutes } from "./app.routes";
@@ -27,7 +27,7 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
             useFactory: HttpLoaderFactory,
             deps: [HttpClient]
         }
-    }), BrowserModule, NgxScrollTopModule, LightboxModule, CommonModule, HomeBodyComponent, SharedModule, RouterModule.forRoot(appRoutes)],
-    providers: [provideHttpClient()],
+    }), BrowserModule, NgxScrollTopModule, LightboxModule, CommonModule, HomeBodyComponent, SharedModule, RouterModule.forRoot(appRoutes, { useHash: true })],
+    providers: [provideHttpClient(), {provide: LocationStrategy, useClass: HashLocationStrategy}],
 })
 export class AppModule {}

@@ -1,47 +1,47 @@
 <body class="bgV">
   <main>
-    <div class="lista">
-      <div class="naslov">
+    <div class="list">
+      <div class="title">
         <h1>{{ 'navC.wineries' | translate }}</h1>
-        <div class="linija"></div>
+        <div class="line"></div>
       </div>
 
-      <div class="red">
-        <div class="kol">
-          <a href="/vinarijaZB">
+      <div class="row">
+        <div class="columnTable">
+          <a routerLink="/wineries/zvonkoBogdan">
             <img
-              class="slika"
+              class="image"
               src="assets/zvonkoBogdan3.webp"
               alt="Zvonko Bogdan"
             />
           </a>
-          <a href="/vinarijaZB">
-            <h2 class="crta">Zvonko Bogdan</h2>
+          <a routerLink="/wineries/zvonkoBogdan">
+            <h2 class="underline">Zvonko Bogdan</h2>
           </a>
-          <p class="tekst" [innerHTML]=" 'wineriesC.winerie1' | translate">
+          <p class="text" [innerHTML]=" 'wineriesC.winerie1' | translate">
           </p>
         </div>
 
-        <div class="kol">
-          <a href="/vinarijaP">
-            <img class="slika" src="assets/vinarijaPetra1.webp" alt="Petra" />
+        <div class="columnTable">
+          <a routerLink="/wineries/petra">
+            <img class="image" src="assets/vinarijaPetra1.webp" alt="Petra" />
           </a>
-          <a href="/vinarijaP">
-            <h2 class="crta">Petra</h2>
+          <a routerLink="/wineries/petra">
+            <h2 class="underline">Petra</h2>
           </a>
-          <p class="tekst">
+          <p class="text">
             {{ 'wineriesC.winerie2' | translate }}
           </p>
         </div>
 
-        <div class="kol" style="clear: left">
-          <a href="/vinskiDvor">
-            <img class="slika" src="assets/vDvor3.webp" alt="Vinski Dvor" />
+        <div class="columnTable" style="clear: left">
+          <a routerLink="/wineries/vinskiDvor">
+            <img class="image" src="assets/vDvor3.webp" alt="Vinski Dvor" />
           </a>
-          <a href="/vinskiDvor">
-            <h2 class="crta">Vinski Dvor</h2>
+          <a routerLink="/wineries/vinskiDvor">
+            <h2 class="underline">Vinski Dvor</h2>
           </a>
-          <p class="tekst">
+          <p class="text">
             {{ 'wineriesC.winerie3' | translate }}
           </p>
         </div>

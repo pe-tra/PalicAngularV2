@@ -1,28 +1,28 @@
 import { Component } from '@angular/core';
 import { Lightbox } from 'ngx-lightbox';
-import { LanguageService } from '../services/language.service';
+import { SharedModule } from '../../shared/sharedModule.module';
+import { LanguageService } from '../../services/language.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { SharedModule } from '../shared/sharedModule.module';
-import { BaseComponent } from '../shared/base.component';
+import { BaseComponent } from '../../shared/base.component';
 
 @Component({
-    selector: 'app-paligoPalata',
+    selector: 'app-corsaroUno',
     imports: [SharedModule, TranslateModule],
-    templateUrl: './paligoPalata.component.html',
+    templateUrl: './corsaroUno.component.html',
     styleUrl: './eachRestaurant.component.scss'
 })
 
-export class PaligoPalataComponent extends BaseComponent {
+export class CorsaroUnoComponent extends BaseComponent {
     album: any[] = [
         {
-          src: 'assets/paligo5.webp'
+          src: 'assets/corsaro2.webp'
         },
         {
-          src: 'assets/paligo1.webp'
+          src: 'assets/corsaro5.webp'
         }
       ];
-    
+
       constructor(private lightbox: Lightbox, languageService: LanguageService, sanitizer: DomSanitizer) {
         super(languageService, sanitizer);
       }
@@ -34,4 +34,5 @@ export class PaligoPalataComponent extends BaseComponent {
       closeLightbox(): void {
         this.lightbox.close();
       }
+
 }

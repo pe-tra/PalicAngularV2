@@ -6,14 +6,14 @@ import { AccommodationComponent } from './accommodation/accommodation.component'
 import { ZooComponent } from './zoo/zoo.component';
 import { WineriesComponent } from './wineries/wineries.component';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
-import { VinarijaZBComponent } from './eachWinerie/vinarijaZB.component';
-import { VinarijaPComponent } from './eachWinerie/vinarijaP.component';
-import { VinskiDvorComponent } from './eachWinerie/vinskiDvor.component';
-import { CorsaroUnoComponent } from './eachRestaurant/corsaroUno.component';
-import { GostionaAbrahamComponent } from './eachRestaurant/gostionaAbraham.component';
-import { PaligoPalataComponent } from './eachRestaurant/paligoPalata.component';
-import { PepperMillaComponent } from './eachRestaurant/pepperMill.component';
-import { RibljaCardaComponent } from './eachRestaurant/ribljaCarda.component';
+import { ZvonkoBogdanComponent } from './wineries/eachWinerie/zvonkoBogdan.component';
+import { PetraComponent } from './wineries/eachWinerie/petra.component';
+import { VinskiDvorComponent } from './wineries/eachWinerie/vinskiDvor.component';
+import { CorsaroUnoComponent } from './restaurants/eachRestaurant/corsaroUno.component';
+import { AbrahamComponent } from './restaurants/eachRestaurant/abraham.component';
+import { PaligoPalaceComponent } from './restaurants/eachRestaurant/paligoPalace.component';
+import { PepperMillaComponent } from './restaurants/eachRestaurant/pepperMill.component';
+import { RibljaCardaComponent } from './restaurants/eachRestaurant/ribljaCarda.component';
 import { ImageGalleryComponent } from './imageGallery/imageGallery.component';
 
 export const appRoutes: Routes = [
@@ -48,47 +48,47 @@ export const appRoutes: Routes = [
         data: { title: 'Vinarije - Palic' }
     },
     {
+        path: "wineries/zvonkoBogdan",
+        component: ZvonkoBogdanComponent,
+        data: { title: 'Vinarija Zvonko Bogdan - Palic' }
+    },
+    {
+        path: "wineries/petra",
+        component: PetraComponent,
+        data: { title: 'Vinarija Petra - Palic' }
+    },
+    {
+        path: "wineries/vinskiDvor",
+        component: VinskiDvorComponent,
+        data: { title: 'Vinski Dvor - Palic' }
+    },
+    {
         path: "restaurants",
         component: RestaurantsComponent,
         data: { title: 'Restorani - Palic' }
     },
     {
-        path: "vinarijaZB",
-        component: VinarijaZBComponent,
-        data: { title: 'Vinarija Zvonko Bogdan - Palic' }
-    },
-    {
-        path: "vinarijaP",
-        component: VinarijaPComponent,
-        data: { title: 'Vinarija Petra - Palic' }
-    },
-    {
-        path: "vinskiDvor",
-        component: VinskiDvorComponent,
-        data: { title: 'Vinski Dvor - Palic' }
-    },
-    {
-        path: "corsaroUno",
+        path: "restaurants/corsaroUno",
         component: CorsaroUnoComponent,
         data: { title: 'Corsaro Uno - Palic' }
     },
     {
-        path: "gostionaAbraham",
-        component: GostionaAbrahamComponent,
+        path: "restaurants/abraham",
+        component: AbrahamComponent,
         data: { title: 'Gostiona Abraham - Palic' }
     },
     {
-        path: "paligoPalata",
-        component: PaligoPalataComponent,
+        path: "restaurants/paligoPalace",
+        component: PaligoPalaceComponent,
         data: { title: 'Paligo Palata - Palic' }
     },
     {
-        path: "pepperMill",
+        path: "restaurants/pepperMill",
         component: PepperMillaComponent,
         data: { title: 'Pepper Mill - Palic' }
     },
     {
-        path: "ribljaCarda",
+        path: "restaurants/ribljaCarda",
         component: RibljaCardaComponent,
         data: { title: 'Riblja Carda - Palic' }
     },

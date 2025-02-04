@@ -5,8 +5,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-gallery',
   imports: [CommonModule],
-  templateUrl: './gallery.component.html',
-  styleUrl: './gallery.component.scss'
+  templateUrl: './gallery.component.html'
 })
 export class GalleryComponent {
   album: any[] = [];

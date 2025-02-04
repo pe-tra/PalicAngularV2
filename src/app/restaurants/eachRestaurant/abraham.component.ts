@@ -1,25 +1,25 @@
 import { Component } from '@angular/core';
 import { Lightbox } from 'ngx-lightbox';
-import { SharedModule } from '../shared/sharedModule.module';
-import { LanguageService } from '../services/language.service';
+import { SharedModule } from '../../shared/sharedModule.module';
+import { LanguageService } from '../../services/language.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { BaseComponent } from '../shared/base.component';
+import { BaseComponent } from '../../shared/base.component';
 
 @Component({
-    selector: 'app-corsaroUno',
+    selector: 'app-gostionaAbraham',
     imports: [SharedModule, TranslateModule],
-    templateUrl: './corsaroUno.component.html',
+    templateUrl: './abraham.component.html',
     styleUrl: './eachRestaurant.component.scss'
 })
 
-export class CorsaroUnoComponent extends BaseComponent {
+export class AbrahamComponent extends BaseComponent {
     album: any[] = [
         {
-          src: 'assets/corsaro2.webp'
+          src: 'assets/abraham5.webp'
         },
         {
-          src: 'assets/corsaro5.webp'
+          src: 'assets/abraham6.webp'
         }
       ];
 

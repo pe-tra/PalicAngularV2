@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 20%;
+  min-height: 100vh;
   display: block;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ body {
   overflow: hidden;
 }
 
-.tekst {
+.text {
   margin: 5% auto;
   width: 60%;
   float: left;
@@ -43,13 +43,13 @@ h2 {
   font-variant: small-caps;
 }
 
-.slike {
+.pictures {
   text-align: center;
   width: 40%;
   float: right;
 }
 
-.slike img {
+.pictures img {
   width: 40%;
   align-items: center;
   padding-top: 15%;
@@ -83,16 +83,16 @@ h1 {
     margin-right: 5%;
   }
 
-  .tekst {
+  .text {
     width: 100%;
   }
 
-  .slike {
+  .pictures {
     text-align: center;
     width: 100%;
   }
 
-  .slike img {
+  .pictures img {
     padding-top: 0;
   }
 }

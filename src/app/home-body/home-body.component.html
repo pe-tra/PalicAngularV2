@@ -2,17 +2,17 @@
   <main>
     <h1 style="position: static">{{ 'homeC.title' | translate }}</h1>
 
-    <div id="kontejner">
-      <p class="sONama">{{ 'homeC.aboutUs' | translate }}</p>
-      <div class="oNama">
-        <div id="opis">
+    <div id="container">
+      <p class="relativeAbout">{{ 'homeC.aboutUs' | translate }}</p>
+      <div class="aboutUs">
+        <div id="about">
           <p [innerHTML]=" 'homeC.aboutDesc' | translate">
           </p>
         </div>
       </div>
     </div>
 
-    <table class="slike" style="overflow: hidden">
+    <table class="pictures" style="overflow: hidden">
       <tr>
         <td><img src="assets/jezeroZalazak1.webp" alt="Zalazak sunca" (click)="openLightbox(0)"/></td>
         <td><img src="assets/parkTrka13.webp" alt="Trka dedamraza" (click)="openLightbox(1)"/></td>
@@ -24,7 +24,7 @@
     <br />
   </main>
   <footer>
-    <p id="kontakt">
+    <p id="contact">
       <b>{{ 'homeC.contact' | translate }}</b> &emsp;&emsp;
       <a href="mailto:palicturizam@gmail.com">
         e-mail:palicturizam&#64;gmail.com</a>

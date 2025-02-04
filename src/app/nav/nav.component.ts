@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
   selector: 'app-nav',
   standalone: false,
   templateUrl: './nav.component.html',
-  styleUrl: './nav.component.scss',
+  styleUrl: './nav.component.scss'
 })
 export class NavComponent implements OnInit {
 
@@ -19,7 +19,7 @@ export class NavComponent implements OnInit {
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe((event: NavigationEnd) => {
-      const currentRoute = event.urlAfterRedirects.split('/')[1];
+      const currentRoute = event.urlAfterRedirects;
       this.activeMenu = currentRoute;
       localStorage.setItem('activeMenu', currentRoute);
     });

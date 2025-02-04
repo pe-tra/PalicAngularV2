@@ -5,6 +5,7 @@
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
+  min-height: 100vh;
 }
 
 h1 {
@@ -14,7 +15,7 @@ h1 {
   color: white;
   text-align: center;
 }
-.sONama {
+.relativeAbout {
   display: table;
   position: relative;
 }
@@ -34,19 +35,19 @@ hr {
   width: 100%;
 }
 
-#kontejner {
+#container {
   margin-left: 2em;
   margin-top: 5em;
   margin-right: 0.5em;
 }
 
-#opis {
+#about {
   margin-bottom: 5em;
   float: left;
   max-width: 70em;
 }
 
-.slike {
+.pictures {
   text-align: center;
 
   img {
@@ -59,16 +60,16 @@ hr {
   }
 }
 
-#kontejner > p {
+#container > p {
   font-size: 2em;
   margin-bottom: 1em;
 }
 
-#opis > p {
+#about > p {
   font-size: 1.6em;
 }
 
-#kontakt {
+#contact {
   display: flex;
   justify-content: space-evenly;
   padding: 0;
@@ -76,7 +77,7 @@ hr {
 }
 
 @media only screen and (max-width: 1460px) {
-  .oNama {
+  .aboutUs {
     clear: both;
 
     nav {
@@ -86,13 +87,13 @@ hr {
 }
 
 @media only screen and (max-width: 1200px) {
-  .slike img {
+  .pictures img {
     width: 15em;
   }
 }
 
 @media only screen and (max-width: 830px) {
-  .slike img {
+  .pictures img {
     width: 11em;
   }
 
@@ -104,31 +105,31 @@ hr {
     font-size: 1.5em;
   }
 
-  #kontejner > p {
+  #container > p {
     font-size: 1.5em;
   }
 
-  #opis > p {
+  #about > p {
     font-size: 1.2em;
   }
 
-  #kontakt {
+  #contact {
     font-size: 0.8em;
   }
 }
 
 @media only screen and (max-width: 680px) {
-  .slike td + td {
+  .pictures td + td {
     display: none;
   }
 
-  .slike img {
+  .pictures img {
     width: 20em;
   }
 }
 
 @media only screen and (max-width: 520px) {
-  .slike img {
+  .pictures img {
     width: 15em;
   }
 }
@@ -142,20 +143,20 @@ hr {
     font-size: 1em;
   }
 
-  #kontejner {
+  #container {
     margin: 1em 2em;
   }
 
-  #kontejner > p {
+  #container > p {
     font-size: 1.2em;
     margin-bottom: 1em;
   }
 
-  #opis > p {
+  #about > p {
     font-size: 0.8em;
   }
 
-  #kontakt {
+  #contact {
     font-size: 0.5em;
   }
 }

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { Lightbox } from 'ngx-lightbox';
-import { LanguageService } from '../services/language.service';
+import { LanguageService } from '../../services/language.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { SharedModule } from '../shared/sharedModule.module';
-import { BaseComponent } from '../shared/base.component';
+import { SharedModule } from '../../shared/sharedModule.module';
+import { BaseComponent } from '../../shared/base.component';
 
 @Component({
     selector: 'app-pepperMill',
