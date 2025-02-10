@@ -12,7 +12,7 @@ cd PalicAngularV2
 
 Install npm packages:  
 ```bash
-npm install  
+npm install -g npm@11.0.0  
 ```
 
 To start a local development server, run:
