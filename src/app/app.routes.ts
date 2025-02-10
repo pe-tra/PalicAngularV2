@@ -20,7 +20,7 @@ export const appRoutes: Routes = [
     {
         path: '',
         component: HomeBodyComponent,
-        data: { title: 'Pocetna - Palic' }
+        data: { title: 'Početna - Palic' }
     },
     {
         path: 'blog',
@@ -30,12 +30,12 @@ export const appRoutes: Routes = [
     {
         path: 'events',
         component: EventsComponent,
-        data: { title: 'Desavanja - Palic' }
+        data: { title: 'Dešavanja - Palic' }
     },
     {
         path: 'accommodation',
         component: AccommodationComponent,
-        data: { title: 'Smestaj - Palic' }
+        data: { title: 'Smeštaj - Palic' }
     },
     {
         path: "zoo",
