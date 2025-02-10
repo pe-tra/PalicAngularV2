@@ -20,81 +20,81 @@ export const appRoutes: Routes = [
     {
         path: '',
         component: HomeBodyComponent,
-        data: { title: 'Početna - Palic' }
+        data: { title: 'Početna - Palić' }
     },
     {
         path: 'blog',
         component: BlogComponent,
-        data: { title: 'Blog - Palic' }
+        data: { title: 'Blog - Palić' }
     },
     {
         path: 'events',
         component: EventsComponent,
-        data: { title: 'Dešavanja - Palic' }
+        data: { title: 'Dešavanja - Palić' }
     },
     {
         path: 'accommodation',
         component: AccommodationComponent,
-        data: { title: 'Smeštaj - Palic' }
+        data: { title: 'Smeštaj - Palić' }
     },
     {
         path: "zoo",
         component: ZooComponent,
-        data: { title: 'Zoo Vrt - Palic' }
+        data: { title: 'Zoo Vrt - Palić' }
     },
     {
         path: "wineries",
         component: WineriesComponent,
-        data: { title: 'Vinarije - Palic' }
+        data: { title: 'Vinarije - Palić' }
     },
     {
         path: "wineries/zvonkoBogdan",
         component: ZvonkoBogdanComponent,
-        data: { title: 'Vinarija Zvonko Bogdan - Palic' }
+        data: { title: 'Vinarija Zvonko Bogdan - Palić' }
     },
     {
         path: "wineries/petra",
         component: PetraComponent,
-        data: { title: 'Vinarija Petra - Palic' }
+        data: { title: 'Vinarija Petra - Palić' }
     },
     {
         path: "wineries/vinskiDvor",
         component: VinskiDvorComponent,
-        data: { title: 'Vinski Dvor - Palic' }
+        data: { title: 'Vinski Dvor - Palić' }
     },
     {
         path: "restaurants",
         component: RestaurantsComponent,
-        data: { title: 'Restorani - Palic' }
+        data: { title: 'Restorani - Palić' }
     },
     {
         path: "restaurants/corsaroUno",
         component: CorsaroUnoComponent,
-        data: { title: 'Corsaro Uno - Palic' }
+        data: { title: 'Corsaro Uno - Palić' }
     },
     {
         path: "restaurants/abraham",
         component: AbrahamComponent,
-        data: { title: 'Gostiona Abraham - Palic' }
+        data: { title: 'Gostiona Abraham - Palić' }
     },
     {
         path: "restaurants/paligoPalace",
         component: PaligoPalaceComponent,
-        data: { title: 'Paligo Palata - Palic' }
+        data: { title: 'Paligo Palata - Palić' }
     },
     {
         path: "restaurants/pepperMill",
         component: PepperMillaComponent,
-        data: { title: 'Pepper Mill - Palic' }
+        data: { title: 'Pepper Mill - Palić' }
     },
     {
         path: "restaurants/ribljaCarda",
         component: RibljaCardaComponent,
-        data: { title: 'Riblja Carda - Palic' }
+        data: { title: 'Riblja Carda - Palić' }
     },
     {
         path: "imageGallery",
         component: ImageGalleryComponent,
-        data: { title: 'Galerija - Palic' }
+        data: { title: 'Galerija - Palić' }
     }
 ];
