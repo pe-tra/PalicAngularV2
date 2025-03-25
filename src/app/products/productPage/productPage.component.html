@@ -1,0 +1,44 @@
+<app-nav></app-nav>
+<main>
+    <div *ngIf="product">
+        <h1>{{ product.title }}</h1>
+        <p>Tags: #{{product.tags[0]}}, #{{product.tags[1]}}</p>
+        <div>
+            <p>Brand: {{product.brand}}</p>
+            <p>{{ product.description }}</p>
+            <p>Dimensions: {{ product.dimensions.width }} width, {{ product.dimensions.height }} height, {{
+                product.dimensions.depth }} depth</p>
+            <p>Weight: {{product.weight}}</p>
+            <p>{{product.returnPolicy}}</p>
+            <p>{{ product.price }}$</p>
+            <p>
+                <rating [(ngModel)]="product.rating" [readonly]="true" class="rating"></rating>
+                {{ product.rating }}
+            </p>
+        </div>
+        <p class="d-inline-flex gap-1" style="margin: 20px;">
+            <button style="padding: 5px;" class="btn btn-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseReviews" aria-expanded="false" aria-controls="collapseReviews">
+                Reviews:
+            </button>
+        </p>
+        <div class="collapse" id="collapseReviews" style="margin-bottom: 20px;">
+            <div class="card card-body">
+                <ul *ngFor="let review of product.reviews">
+                    <li>{{review.reviewerName}}</li>
+                    <li>{{review.reviewerEmail}}</li>
+                    <li>Rating: <rating [(ngModel)]="review.rating" [readonly]="true" class="rating"></rating>
+                        {{review.rating}}</li>
+                    <li>Comment: {{review.comment}}</li>
+                    <li>{{review.date | date: 'MMMM d, y, h:mm a'}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="collage">
+            <div class="image-item" *ngFor="let image of product.images; let i = index" [class.active]="i === 0"
+                (click)="open(i)">
+                <img [src]="image" class="collage-image img-fluid" alt="Product">
+            </div>
+        </div>
+    </div>
+</main>

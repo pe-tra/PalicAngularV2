@@ -5,10 +5,10 @@ import { LanguageService } from '../services/language.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { BaseComponent } from '../shared/base.component';
-
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-home-body',
-  imports: [SharedModule, TranslateModule],
+  imports: [SharedModule, TranslateModule, RouterModule],
   templateUrl: './home-body.component.html',
   styleUrl: './home-body.component.scss'
 })

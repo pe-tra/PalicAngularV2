@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Lightbox } from 'ngx-lightbox';
 import { CommonModule } from '@angular/common';
+import { SharedModule } from '../shared/sharedModule.module';
 
 @Component({
   selector: 'app-gallery',
-  imports: [CommonModule],
+  imports: [CommonModule, SharedModule ],
   templateUrl: './gallery.component.html'
 })
 export class GalleryComponent {

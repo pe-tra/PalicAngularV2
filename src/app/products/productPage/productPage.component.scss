@@ -1,0 +1,27 @@
+main{
+    padding: 2em;
+}
+
+li{
+    list-style-type: none;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .image-item {
+    width: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .collage-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }

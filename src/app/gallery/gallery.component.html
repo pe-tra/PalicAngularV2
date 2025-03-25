@@ -1,9 +1,9 @@
+<app-nav></app-nav>
 <div class="row">
     <div
       class="col-md-4"
       *ngFor="let image of album; let i = index"
-      (click)="open(i)"
-    >
+      (click)="open(i)">
       <img [src]="image.thumb" class="img-fluid" alt="Gallery Image {{ i + 1 }}" />
     </div>
   </div>  

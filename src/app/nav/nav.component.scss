@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Georgia, Garamond, serif;
   box-sizing: border-box;
+  color: white;
 }
 nav ul li.active {
   border-bottom: 2px solid black;
@@ -152,6 +153,7 @@ ul.navigation a:hover {
   display: flex;
 }
 
+
 @media only screen and (max-width: 1300px) {
   .listNav {
     display: flex;
@@ -188,6 +190,15 @@ ul.navigation a:hover {
   .nav-item{
     margin-left: 10px;
   }
+
+  .navbar-brand{
+    display: none;
+  }
+
+  .navbar-toggler{
+    margin: 6px;
+  }
+
 }
 
 @media only screen and (max-width: 700px) {

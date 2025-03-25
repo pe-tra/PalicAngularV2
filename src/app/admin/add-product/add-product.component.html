@@ -1,0 +1,53 @@
+<div>
+    <ng-toast [width]="300"> </ng-toast>
+    <h3>Add a new product:</h3>
+    <form [formGroup]="newProduct" (ngSubmit)="POST()">
+      <div class="form-group">
+        <label for="productTitle">Title:</label>
+        <input id="productTitle" formControlName="title" type="text" class="form-control">
+        
+        <div class="alert" *ngIf="newProduct.get('title')?.invalid && (newProduct.get('title')?.dirty || newProduct.get('title')?.touched)" >
+          <div *ngIf="newProduct.get('title')?.errors?.['required']">Title is reqired.</div>
+          <div *ngIf="newProduct.get('title')?.errors?.['minlength']">Title must be at least 3 characters long.</div>
+          <div *ngIf="newProduct.get('title')?.errors?.['maxlength']">Title can't be more than 255 characters long.</div>
+        </div>
+      
+      </div>
+
+      <div class="form-group">
+        <label for="productDescription">Description:</label>
+        <textarea id="productDescription" formControlName="description" type="text" ></textarea>
+
+        <div class="alert" *ngIf="newProduct.get('description')?.invalid && (newProduct.get('description')?.dirty || newProduct.get('description')?.touched)" >
+          <div *ngIf="newProduct.get('description')?.errors?.['maxlength']">Description can't be more than 500 characters long.</div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="productCategory">Category:</label>
+        <select id="productCategory" formControlName="category">
+          <option value="">Select category</option>
+          <option *ngFor="let category of categories" [ngValue]="category">{{category.name}}</option>
+        </select>
+
+        <div class="alert" *ngIf="newProduct.get('category')?.invalid && (newProduct.get('category')?.dirty || newProduct.get('category')?.touched)" >
+          <div *ngIf="newProduct.get('category')?.errors?.['required']">Category is reqired.</div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="productPrice">Price:</label>
+        <input id="productPrice" formControlName="price">
+
+        <div class="alert" *ngIf="newProduct.get('price')?.invalid && (newProduct.get('price')?.dirty || newProduct.get('price')?.touched)" >
+          <div *ngIf="newProduct.get('price')?.errors?.['required']">Price is reqired.</div>
+          <div *ngIf="newProduct.get('price')?.errors?.['min']">Price must be at least 1.</div>
+          <div *ngIf="newProduct.get('price')?.errors?.['max']">Price can't be more than 1000000.</div>
+          <div *ngIf="newProduct.get('price')?.errors?.['pattern']">Price must be a number.</div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary" [disabled]="!newProduct.valid">Add product</button>
+    </form>
+    
+</div>

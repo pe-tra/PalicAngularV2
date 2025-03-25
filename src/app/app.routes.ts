@@ -15,6 +15,12 @@ import { PaligoPalaceComponent } from './restaurants/eachRestaurant/paligoPalace
 import { PepperMillaComponent } from './restaurants/eachRestaurant/pepperMill.component';
 import { RibljaCardaComponent } from './restaurants/eachRestaurant/ribljaCarda.component';
 import { ImageGalleryComponent } from './imageGallery/imageGallery.component';
+import { ProductsComponent } from './products/products.component';
+import { ProductPage } from './products/productPage/productPage.component';
+import { LayoutComponent } from './admin/layout/layout.component';
+import { ProductListComponent } from './admin/product-list/product-list.component';
+import { AddProductComponent } from './admin/add-product/add-product.component';
+import { UpdateProductComponent } from './admin/update-product/update-product.component';
 
 export const appRoutes: Routes = [
     {
@@ -96,5 +102,28 @@ export const appRoutes: Routes = [
         path: "imageGallery",
         component: ImageGalleryComponent,
         data: { title: 'Galerija - Palić' }
+    },
+    {
+        path: "products",
+        component: ProductsComponent,
+        data: { title: 'Products' }
+    },
+    {
+        path: "products/:id",
+        component: ProductPage,
+        data: { title: 'Product Info' }
+    },
+    {
+        path: "products/category/:category",
+        component: ProductsComponent
+    },
+    {
+        path: 'admin',
+        component: LayoutComponent,
+        children: [
+            { path: 'product-list', component: ProductListComponent },
+            { path: 'add-product', component: AddProductComponent },
+            { path: 'update-product', component: UpdateProductComponent}
+        ]
     }
 ];
