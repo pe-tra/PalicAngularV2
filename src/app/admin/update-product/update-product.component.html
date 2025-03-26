@@ -2,12 +2,12 @@
     <ng-toast [width]="300"> </ng-toast>
     <h3>Select which product to update:</h3>
 
-    <select (change)="onProductSelect($event)">
+    <select id="slectProductUpdate" (change)="onProductSelect($event)">
         <option value="">Select product</option>
         <option *ngFor="let product of products" [value]="product.id" >{{product.id}} | {{product.title}}</option>
     </select>
 
-    <form [formGroup]="updateProduct" (ngSubmit)="onSubmit()">
+    <form [formGroup]="updateProduct" (ngSubmit)="onSubmit(); updateProduct.reset()">
       <div class="form-group">
         <label for="productTitle" >Title:</label>
         <input id="productTitle" formControlName="title" type="text" class="form-control" >

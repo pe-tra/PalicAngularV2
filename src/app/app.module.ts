@@ -19,6 +19,7 @@ import { ProductPage } from "./products/productPage/productPage.component";
 import { ToastrModule, ToastNoAnimation, ToastNoAnimationModule } from 'ngx-toastr';
 import { NgToastModule } from 'ng-angular-popup';
 import { ConfirmationPopoverModule } from "angular-confirmation-popover";
+import { provideAnimations } from '@angular/platform-browser/animations';
 
 export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
     return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
@@ -36,6 +37,6 @@ export function HttpLoaderFactory(http: HttpClient): TranslateHttpLoader {
             deps: [HttpClient]
         }
     }), NgToastModule, ToastNoAnimationModule.forRoot(), SidebarModule, RatingModule.forRoot(), FormsModule, BrowserModule, NgxScrollTopModule, LightboxModule, CommonModule, HomeBodyComponent, SharedModule, RouterModule.forRoot(appRoutes, { useHash: true })],
-    providers: [provideHttpClient(), {provide: LocationStrategy, useClass: HashLocationStrategy}],
+    providers: [provideHttpClient(), provideAnimations(), {provide: LocationStrategy, useClass: HashLocationStrategy}],
 })
 export class AppModule {}

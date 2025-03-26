@@ -89,20 +89,20 @@ export class UpdateProductComponent implements OnInit {
       }
 
       onProductSelect(event: Event){
-        const selectedElement = event.target as HTMLSelectElement;
-        const selectedID = +selectedElement.value;
-        const selected = this.products.find((product: any) => product.id === selectedID);
-
-        if(selected){
-          this.selectedProduct = selected;
-          this.updateProduct.patchValue({
-            title: selected.title,
-            description: selected.description,
-            category: selected.category,
-            price: selected.price
-          })
+          const selectedElement = event.target as HTMLSelectElement;
+          const selectedID = +selectedElement.value;
+          const selected = this.products.find((product: any) => product.id === selectedID);
+  
+          if(selected){
+            this.selectedProduct = selected;
+            this.updateProduct.patchValue({
+              title: selected.title,
+              description: selected.description,
+              category: selected.category,
+              price: selected.price
+            })
+          }
         }
-      }
 
       onSubmit(){
         if(this.updateProduct.valid && this.selectedProduct){
@@ -120,7 +120,6 @@ export class UpdateProductComponent implements OnInit {
             category: this.updateProduct.value.category,
             price: this.updateProduct.value.price
           })
-          
         })
         .then(res => res.json())
         .then(data => {
